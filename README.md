@@ -19,4 +19,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
+## Backtracking
+|  |
+| ------- |
+| [0052-n-queens-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
