@@ -11,7 +11,6 @@ class Solution {
             //hm.put(0,i);
             hm[0] = i;
             HelperFunction(hm, count+1,n);
-            hm[0] = 0;
         }
         return result;
     }
@@ -31,7 +30,6 @@ class Solution {
                     if(qualified){
                         hm[count] = pos;
                         HelperFunction(hm, count + 1,n);
-                        hm[count] = 0;
                     }
                 }
                     
