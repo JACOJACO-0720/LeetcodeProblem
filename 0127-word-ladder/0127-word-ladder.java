@@ -4,7 +4,7 @@ class Solution {
         if (!wordSet.contains(endWord)) {
             return 0;
         }
-        List<String> lst = new ArrayList<>(wordList);
+        List<String> lst = new LinkedList<>(wordList);
         ArrayDeque<String> ad = new ArrayDeque<>();
         ad.add(beginWord);
         int count = 1;
