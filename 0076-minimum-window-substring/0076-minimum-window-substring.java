@@ -1,14 +1,16 @@
 class Solution {
     public String minWindow(String s, String t) {
-        if (t.length() > s.length()) {
+        int tl = t.length();
+        int sl = s.length();
+        if (tl > sl) {
             return "";
         }
         int[] dir = new int[52];
         for (int i = 0; i < dir.length; i++) {
             dir[i] = Integer.MIN_VALUE;
         }
-        int tlength = t.length();
-        for (int i = 0; i < t.length(); i++) {
+        
+        for (int i = 0; i < tl; i++) {
             if (t.charAt(i) >= 'a' && t.charAt(i) <= 'z') {
                 if (dir[t.charAt(i) - 'a'] == Integer.MIN_VALUE) {
                     dir[t.charAt(i) - 'a'] = 1;
@@ -25,58 +27,58 @@ class Solution {
         }
         int count = 0;
         int left = 0;
-        int right = tlength - 1;
+        int right = tl - 1;
         int maxLength = Integer.MAX_VALUE;
         String maxString = "";
-        for (int i = 0; i < t.length(); i++) {
+        for (int i = 0; i < tl; i++) {
             if (s.charAt(i) >= 'a' && s.charAt(i) <= 'z') {
                 if (dir[s.charAt(i) - 'a'] == Integer.MIN_VALUE) {
-                     if (count == t.length()) {
-                            if (right - left + 1 < maxLength) {
-                                 maxLength = right - left + 1;
-                                maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
-                                            return maxString;
-                                        }
+                    if (count == tl) {
+                        if (right - left + 1 < maxLength) {
+                            maxLength = right - left + 1;
+                            maxString = s.substring(left, right+1);
+                            if(maxLength == tl){
+                                return maxString;
                             }
+                        }
                     }
                 } else {
                     dir[s.charAt(i) - 'a']--;
                     if (dir[s.charAt(i) - 'a'] >= 0) {
                         count++;
-                        if (count == t.length()) {
+                        if (count == tl) {
                             if (right - left + 1 < maxLength) {
-                                 maxLength = right - left + 1;
+                                maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
-                                            return maxString;
-                                        }
+                                if(maxLength == tl){
+                                    return maxString;
+                                }
                             }
                         }
                     }
                 }
             } else {
                 if (dir[s.charAt(i) - 'A' + 26] == Integer.MIN_VALUE) {
-                     if (count == t.length()) {
-                            if (right - left + 1 < maxLength) {
-                                 maxLength = right - left + 1;
-                                maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
-                                            return maxString;
-                                        }
+                    if (count == tl) {
+                        if (right - left + 1 < maxLength) {
+                            maxLength = right - left + 1;
+                            maxString = s.substring(left, right+1);
+                            if(maxLength == tl){
+                                return maxString;
                             }
                         }
+                    }
                 } else {
                     dir[s.charAt(i) - 'A'+ 26]--;
                     if (dir[s.charAt(i) - 'A'+ 26] >= 0) {
                         count++;
-                        if (count == t.length()) {
+                        if (count == tl) {
                             if (right - left + 1 < maxLength) {
-                                 maxLength = right - left + 1;
+                                maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
-                                            return maxString;
-                                        }
+                                if(maxLength == tl){
+                                    return maxString;
+                                }
                             }
                         }
                     }
@@ -85,19 +87,19 @@ class Solution {
         }
 
 
-        while (right < s.length()) {
-            if (count == t.length()) {
+        while (right < sl) {
+            if (count == tl) {
                 int originLeft = left;
                 left++;
                 if (s.charAt(originLeft) >= 'a' && s.charAt(originLeft) <= 'z') {
                     if (dir[s.charAt(originLeft) - 'a'] == Integer.MIN_VALUE) {
-                         if (count == t.length()) {
+                        if (count == tl) {
                             if (right - left + 1 < maxLength) {
-                                 maxLength = right - left + 1;
+                                maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
-                                            return maxString;
-                                        }
+                                if(maxLength == tl){
+                                    return maxString;
+                                }
                             }
                         }
                     } else {
@@ -106,24 +108,24 @@ class Solution {
                             count--;
                         }
                     }
-                    if (count == t.length()) {
+                    if (count == tl) {
                         if (right - left + 1 < maxLength) {
                             maxLength = right - left + 1;
                             maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
-                                            return maxString;
-                                        }
+                            if(maxLength == tl){
+                                return maxString;
+                            }
                         }
                     }
                 } else {
                     if (dir[s.charAt(originLeft) - 'A'+ 26] == Integer.MIN_VALUE) {
-                         if (count == t.length()) {
+                        if (count == tl) {
                             if (right - left + 1 < maxLength) {
                                 maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
-                                            return maxString;
-                                        }
+                                if(maxLength == tl){
+                                    return maxString;
+                                }
                             }
                         }
                     } else {
@@ -132,20 +134,20 @@ class Solution {
                             count--;
                         }
                     }
-                    if (count == t.length()) {
+                    if (count == tl) {
 
                         if (right - left + 1 < maxLength) {
                             maxLength = right - left + 1;
                             maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
-                                            return maxString;
-                                        }
+                            if(maxLength == tl){
+                                return maxString;
+                            }
                         }
                     }
                 }
             } else {
                 right++;
-                if (right >= s.length()) {
+                if (right >= sl) {
                     return maxString;
                 } else {
                     if (s.charAt(right) >= 'a' && s.charAt(right) <= 'z') {
@@ -155,11 +157,11 @@ class Solution {
                             dir[s.charAt(right) - 'a']--;
                             if (dir[s.charAt(right) - 'a'] >= 0) {
                                 count++;
-                                if (count == t.length()) {
+                                if (count == tl) {
                                     if (right - left + 1 < maxLength) {
                                         maxLength = right - left + 1;
                                         maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
+                                        if(maxLength == tl){
                                             return maxString;
                                         }
                                     }
@@ -173,12 +175,12 @@ class Solution {
                             dir[s.charAt(right) - 'A'+ 26]--;
                             if (dir[s.charAt(right) - 'A'+ 26] >= 0) {
                                 count++;
-                                if (count == t.length()) {
+                                if (count ==tl) {
                                     if (right - left + 1 < maxLength) {
                                         maxLength = right - left + 1;
 
                                         maxString = s.substring(left, right+1);
-                                        if(maxLength == t.length()){
+                                        if(maxLength == tl){
                                             return maxString;
                                         }
                                     }
