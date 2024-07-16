@@ -37,10 +37,11 @@ class Solution {
         for (int i = 0; i < length; i++) {
             if(before.charAt(i)!=after.charAt(i)){
                 count++;
+                if(count>1){
+                    return false;
+                }
             }
-            if(count>1){
-                return false;
-            }
+
         }
         return count==1;
     }
