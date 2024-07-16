@@ -1,8 +1,3 @@
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         List<String> lst = new ArrayList<>(wordList);
@@ -42,6 +37,9 @@ class Solution {
         for (int i = 0; i < length; i++) {
             if(before.charAt(i)!=after.charAt(i)){
                 count++;
+            }
+            if(count>1){
+                return false;
             }
         }
         return count==1;
