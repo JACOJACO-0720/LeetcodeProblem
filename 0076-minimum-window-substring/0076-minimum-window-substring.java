@@ -23,7 +23,6 @@ class Solution {
                 }
             }
         }
-        int[] maxArray = dir.clone();
         int count = 0;
         int left = 0;
         int right = tlength - 1;
