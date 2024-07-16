@@ -1,10 +1,13 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Set<String> wordSet = new HashSet<>(wordList);
+        if (!wordSet.contains(endWord)) {
+            return 0;
+        }
         List<String> lst = new ArrayList<>(wordList);
         ArrayDeque<String> ad = new ArrayDeque<>();
         ad.add(beginWord);
         int count = 1;
-        // String current = beginWord;
         while(!wordList.isEmpty()){
             count++;
             int size = ad.size();
