@@ -36,6 +36,9 @@ class Solution {
                             if (right - left + 1 < maxLength) {
                                  maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                             }
                     }
                 } else {
@@ -46,6 +49,9 @@ class Solution {
                             if (right - left + 1 < maxLength) {
                                  maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                             }
                         }
                     }
@@ -56,6 +62,9 @@ class Solution {
                             if (right - left + 1 < maxLength) {
                                  maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                             }
                         }
                 } else {
@@ -66,6 +75,9 @@ class Solution {
                             if (right - left + 1 < maxLength) {
                                  maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                             }
                         }
                     }
@@ -84,6 +96,9 @@ class Solution {
                             if (right - left + 1 < maxLength) {
                                  maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                             }
                         }
                     } else {
@@ -96,14 +111,20 @@ class Solution {
                         if (right - left + 1 < maxLength) {
                             maxLength = right - left + 1;
                             maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                         }
                     }
                 } else {
                     if (dir[s.charAt(originLeft) - 'A'+ 26] == Integer.MIN_VALUE) {
                          if (count == t.length()) {
                             if (right - left + 1 < maxLength) {
-                                 maxLength = right - left + 1;
+                                maxLength = right - left + 1;
                                 maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                             }
                         }
                     } else {
@@ -117,6 +138,9 @@ class Solution {
                         if (right - left + 1 < maxLength) {
                             maxLength = right - left + 1;
                             maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                         }
                     }
                 }
@@ -136,6 +160,9 @@ class Solution {
                                     if (right - left + 1 < maxLength) {
                                         maxLength = right - left + 1;
                                         maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                                     }
                                 }
                             }
@@ -150,7 +177,11 @@ class Solution {
                                 if (count == t.length()) {
                                     if (right - left + 1 < maxLength) {
                                         maxLength = right - left + 1;
+
                                         maxString = s.substring(left, right+1);
+                                        if(maxLength == t.length()){
+                                            return maxString;
+                                        }
                                     }
                                 }
                             }
