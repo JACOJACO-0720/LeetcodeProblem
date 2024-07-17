@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0141-linked-list-cycle) |
 ## Recursion
 |  |
@@ -58,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
@@ -81,4 +84,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
