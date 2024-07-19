@@ -1,5 +1,6 @@
 class Solution {
     public int appendCharacters(String s, String t) {
+        if(s.contains(t)) return 0;
         int curS = 0;
         int curT = 0;
             while(curS<s.length() && curT<t.length()){
