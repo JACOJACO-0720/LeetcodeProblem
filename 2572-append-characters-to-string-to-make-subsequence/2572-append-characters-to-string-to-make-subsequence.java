@@ -4,7 +4,8 @@ class Solution {
         int curS = 0;
         int curT = 0;
             while(curS<s.length() && curT<t.length()){
-                if(s.charAt(curS)==t.charAt(curT) ){
+                char charT = t.charAt(curT);
+                if(s.charAt(curS)==charT ){
                     curS++;
                     curT++;
                 }else{
@@ -15,3 +16,25 @@ class Solution {
         
     }
 }
+
+// class Solution {
+//     public int appendCharacters(String s, String t) {
+//         int len1 = s.length();
+//         int len2 = t.length();
+//         int ptr1 = 0, ptr2 = 0;
+//         while(ptr1 < len1 && ptr2 < len2) {
+//             char charSearched = t.charAt(ptr2);
+//             while(ptr1 < len1) {
+//                 if(s.charAt(ptr1) == charSearched) {
+//                     ptr2++;
+//                     ptr1++;
+//                     break;
+//                 }
+//                 else {
+//                     ptr1++;
+//                 }
+//             }
+//         }
+//         return len2 - ptr2 ;
+//     }
+// }
