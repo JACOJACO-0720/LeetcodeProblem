@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
+| [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2617-time-taken-to-cross-the-door](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2617-time-taken-to-cross-the-door) |
 ## Hash Table
@@ -26,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0141-linked-list-cycle) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
+| [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 ## Math
 |  |
 | ------- |
@@ -94,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
+| [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2617-time-taken-to-cross-the-door](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2617-time-taken-to-cross-the-door) |
 ## Tree
 |  |
@@ -150,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
+| [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 ## Union Find
 |  |
 | ------- |
