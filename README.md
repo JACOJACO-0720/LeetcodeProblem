@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0002-add-two-numbers) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 ## Geometry
 |  |
@@ -71,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0206-reverse-linked-list) |
@@ -85,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0206-reverse-linked-list) |
 ## Dynamic Programming
 |  |
