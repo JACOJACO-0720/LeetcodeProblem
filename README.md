@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0002-add-two-numbers) |
+| [0007-reverse-integer](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0007-reverse-integer) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
 ## Geometry
