@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0127-word-ladder](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0127-word-ladder) |
+| [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -138,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
@@ -201,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 ## Shortest Path
 |  |
@@ -225,4 +228,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
