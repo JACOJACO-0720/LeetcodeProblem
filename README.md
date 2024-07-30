@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0056-merge-intervals) |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [0162-find-peak-element](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0162-find-peak-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
