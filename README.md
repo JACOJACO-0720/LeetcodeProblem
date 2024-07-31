@@ -167,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0023-merge-k-sorted-lists) |
+| [0191-number-of-1-bits](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0191-number-of-1-bits) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -243,5 +244,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0191-number-of-1-bits](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0201-bitwise-and-of-numbers-range) |
 <!---LeetCode Topics End-->
