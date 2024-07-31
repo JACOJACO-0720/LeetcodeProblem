@@ -22,6 +22,7 @@ class Solution {
                     }
                     res.add(newres);
                     tmpRes.remove(tmpRes.size()-1);
+                    break;
                 }else{
                     List<Integer> tmpRes = new ArrayList<>();
                     tmpRes.add(candidates[i]);
