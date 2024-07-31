@@ -48,6 +48,7 @@ class Solution {
                     }
                     res.add(newres);
                     tmpRes.remove(tmpRes.size()-1);
+                    break;
                 }else{
 
                     tmpRes.add(candidates[i]);
