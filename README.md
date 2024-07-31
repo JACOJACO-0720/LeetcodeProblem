@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0198-house-robber) |
 | [0228-summary-ranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0228-summary-ranges) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 ## Merge Sort
 |  |
