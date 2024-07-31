@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0141-linked-list-cycle) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [0208-implement-trie-prefix-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0208-implement-trie-prefix-tree) |
+| [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
 ## Math
@@ -74,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
+| [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Breadth-First Search
@@ -83,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0127-word-ladder) |
 | [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
+| [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Linked List
