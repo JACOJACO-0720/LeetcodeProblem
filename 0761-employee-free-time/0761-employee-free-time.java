@@ -31,7 +31,7 @@ class Solution {
         if(flat.isEmpty()){
             return null;
         }
-        int curstart = flat.get(0).start; int curend = flat.get(0).end;
+        int curstart; int curend = flat.get(0).end;
 
         for (int i = 1; i < flat.size(); i++) {
             Interval tmpInterval = flat.get(i);
