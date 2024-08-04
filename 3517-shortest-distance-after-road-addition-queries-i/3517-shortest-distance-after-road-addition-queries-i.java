@@ -1,53 +1,47 @@
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.PriorityQueue;
+
 
 class Solution {
     public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
         int[] res = new int[queries.length];
         List<List<Integer>> lst = new ArrayList<>();
         for (int i = 0; i < n-1; i++) {
-            ArrayList<Integer> temp = new ArrayList<>();
-            temp.add(i+1);
-            lst.add(temp);
+            List<Integer> tmp = new ArrayList<>();
+            tmp.add(i+1);
+            lst.add(tmp);
         }
-        int i = 0;
-        for (int[] query: queries) {
-            lst.get(query[0]).add(query[1]);
-            res[i++] = dij(lst,n);
+        lst.add(new ArrayList<>());
+        int i =0;
+        for(int[] query: queries){
+            int l = query[0];
+            int r = query[1];
+            lst.get(l).add(r);
+            res[i++] = bellmanFord( res, lst,n);
         }
         return res;
     }
+    int  bellmanFord( int[] res , List<List<Integer>> lst, int n){
+        int[] distance = new int[n];
+        Arrays.fill(distance, Integer.MAX_VALUE);
+        distance[0] = 0;
 
-    int dij(List<List<Integer>> lst, int n){
-        int[] dist = new int[n];
-        for (int i = 0; i < dist.length; i++) {
-            dist[i] = Integer.MAX_VALUE;
-        }
-        dist[0] = 0;
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[1], b[1]));
-        pq.add(new int[]{0,0});
-
-        while(!pq.isEmpty()){
-
-            int[] cur = pq.poll();
-
-            if(cur[1]> dist[cur[0]]){
-                continue;
-            }
-            if(cur[0]==n-1){
-                break;
-            }
-            List<Integer> tmplst = lst.get(cur[0]);
-            for (int i = 0; i < tmplst.size(); i++) {
-                if(dist[tmplst.get(i)] > cur[1] + 1){
-                    dist[tmplst.get(i)] = cur[1] + 1;
+        ArrayDeque<Integer> ad = new ArrayDeque<>();
+        ad.add(0);
+        while(!ad.isEmpty()){
+            int temp = ad.poll();
+            List<Integer> tmp = lst.get(temp);
+            for (int i = 0; i < tmp.size(); i++) {
+                if(distance[tmp.get(i)]> distance[temp]+1){
+                    distance[tmp.get(i)] = distance[temp]+1;
+                    ad.push(tmp.get(i));
                 }
-                pq.add(new int[]{tmplst.get(i), cur[1] + 1 });
             }
 
         }
-        return dist[n-1];
+        return distance[n-1];
     }
 
 }
