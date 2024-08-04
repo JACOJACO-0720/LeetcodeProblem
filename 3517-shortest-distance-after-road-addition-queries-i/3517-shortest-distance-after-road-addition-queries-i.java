@@ -1,42 +1,53 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PriorityQueue;
+
 class Solution {
-    private List<List<int[]>> graph;
-
-    private int dijkstra(int n) {
-        int[] dist = new int[n];
-        Arrays.fill(dist, Integer.MAX_VALUE);
-        dist[0] = 0;
-        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
-        pq.offer(new int[]{0, 0});
-
-        while (!pq.isEmpty()) {
-            int[] ele = pq.poll();
-            int cd = ele[0], node = ele[1];
-            if (node == n - 1) return dist[n - 1];
-            //if (cd > dist[node]) continue;
-            for (int[] neighbor : graph.get(node)) {
-                int nbr = neighbor[0], wt = neighbor[1];
-                if (cd + wt < dist[nbr]) {
-                    dist[nbr] = cd + wt;
-                    pq.offer(new int[]{cd + wt, nbr});
-                }
-            }
-        }
-        return dist[n - 1];
-    }
-
     public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
-        graph = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            graph.add(new ArrayList<>());
+        int[] res = new int[queries.length];
+        List<List<Integer>> lst = new ArrayList<>();
+        for (int i = 0; i < n-1; i++) {
+            ArrayList<Integer> temp = new ArrayList<>();
+            temp.add(i+1);
+            lst.add(temp);
         }
-        for (int i = 0; i < n - 1; i++) {
-            graph.get(i).add(new int[]{i + 1, 1});
+        int i = 0;
+        for (int[] query: queries) {
+            lst.get(query[0]).add(query[1]);
+            res[i++] = dij(lst,n);
         }
-        List<Integer> res = new ArrayList<>();
-        for (int[] query : queries) {
-            graph.get(query[0]).add(new int[]{query[1], 1});
-            res.add(dijkstra(n));
-        }
-        return res.stream().mapToInt(i -> i).toArray();
+        return res;
     }
+
+    int dij(List<List<Integer>> lst, int n){
+        int[] dist = new int[n];
+        for (int i = 0; i < dist.length; i++) {
+            dist[i] = Integer.MAX_VALUE;
+        }
+        dist[0] = 0;
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[1], b[1]));
+        pq.add(new int[]{0,0});
+
+        while(!pq.isEmpty()){
+
+            int[] cur = pq.poll();
+
+            if(cur[1]> dist[cur[0]]){
+                continue;
+            }
+            if(cur[0]==n-1){
+                break;
+            }
+            List<Integer> tmplst = lst.get(cur[0]);
+            for (int i = 0; i < tmplst.size(); i++) {
+                if(dist[tmplst.get(i)] > cur[1] + 1){
+                    dist[tmplst.get(i)] = cur[1] + 1;
+                }
+                pq.add(new int[]{tmplst.get(i), cur[1] + 1 });
+            }
+
+        }
+        return dist[n-1];
+    }
+
 }
