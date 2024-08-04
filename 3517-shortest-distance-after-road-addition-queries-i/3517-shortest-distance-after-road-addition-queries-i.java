@@ -12,7 +12,7 @@ class Solution {
             int[] ele = pq.poll();
             int cd = ele[0], node = ele[1];
             if (node == n - 1) return dist[n - 1];
-            if (cd > dist[node]) continue;
+            //if (cd > dist[node]) continue;
             for (int[] neighbor : graph.get(node)) {
                 int nbr = neighbor[0], wt = neighbor[1];
                 if (cd + wt < dist[nbr]) {
