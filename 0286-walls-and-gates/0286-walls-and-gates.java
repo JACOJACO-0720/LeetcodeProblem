@@ -2,7 +2,6 @@ import java.util.ArrayDeque;
 
 class Solution {
     public void wallsAndGates(int[][] rooms) {
-        boolean[][] visited = new boolean[rooms.length][rooms[0].length];
         ArrayDeque<int[]> ad = new ArrayDeque<>();
         for (int i = 0; i < rooms.length; i++) {
             for (int j = 0; j < rooms[0].length; j++) {
