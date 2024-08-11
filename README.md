@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2500-minimum-costs-using-the-train-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2500-minimum-costs-using-the-train-line) |
 | [2617-time-taken-to-cross-the-door](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2617-time-taken-to-cross-the-door) |
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Math
 |  |
 | ------- |
@@ -137,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Simulation
 |  |
 | ------- |
