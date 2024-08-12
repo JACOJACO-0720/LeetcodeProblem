@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0761-employee-free-time](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0761-employee-free-time) |
+| [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0198-house-robber) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
+| [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2500-minimum-costs-using-the-train-line) |
 ## Sliding Window
@@ -189,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0053-maximum-subarray) |
 | [0191-number-of-1-bits](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0191-number-of-1-bits) |
+| [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -212,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
 | [2617-time-taken-to-cross-the-door](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2617-time-taken-to-cross-the-door) |
 ## Greedy
 |  |
@@ -275,4 +279,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
