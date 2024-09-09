@@ -44,8 +44,8 @@ class Solution {
             }
 
             //if our bucket is empty means we have not taken any elements in the buckets
-            if(bucket[j]==0)
-                break;
+            // if(bucket[j]==0)
+            //     break;
 
         }
 
