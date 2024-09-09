@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0761-employee-free-time](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0761-employee-free-time) |
 | [0833-bus-routes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0833-bus-routes) |
 | [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
@@ -77,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0039-combination-sum) |
 | [0052-n-queens-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0052-n-queens-ii) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## String
 |  |
 | ------- |
@@ -151,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0198-house-robber) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1025-minimum-cost-for-tickets) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
@@ -302,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0191-number-of-1-bits](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0201-bitwise-and-of-numbers-range) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## String Matching
 |  |
 | ------- |
@@ -314,4 +318,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
+## Memoization
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
+## Bitmask
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 <!---LeetCode Topics End-->
