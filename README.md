@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0056-merge-intervals) |
+| [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0053-maximum-subarray) |
+| [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0097-interleaving-string) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -259,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
