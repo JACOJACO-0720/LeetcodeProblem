@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0135-candy) |
+| [0139-word-break](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0139-word-break) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [0162-find-peak-element](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0162-find-peak-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0141-linked-list-cycle) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [0208-implement-trie-prefix-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0208-implement-trie-prefix-tree) |
@@ -97,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
 | [0097-interleaving-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0097-interleaving-string) |
 | [0127-word-ladder](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0165-compare-version-numbers) |
 | [0208-implement-trie-prefix-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0208-implement-trie-prefix-tree) |
@@ -158,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0097-interleaving-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0097-interleaving-string) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
@@ -306,6 +310,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Data Stream
@@ -338,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0139-word-break](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0139-word-break) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Bitmask
 |  |
