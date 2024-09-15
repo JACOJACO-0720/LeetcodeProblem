@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0198-house-robber) |
 | [0228-summary-ranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0228-summary-ranges) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
+| [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -157,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0198-house-robber) |
+| [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -288,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0162-find-peak-element) |
+| [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Design
 |  |
