@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0056-merge-intervals) |
+| [0059-spiral-matrix-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0059-spiral-matrix-ii) |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [1971-incremental-memory-leak](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1971-incremental-memory-leak) |
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
@@ -273,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
