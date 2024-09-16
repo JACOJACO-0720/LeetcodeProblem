@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
+| [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0135-candy) |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0039-combination-sum) |
 | [0052-n-queens-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0052-n-queens-ii) |
+| [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## String
 |  |
@@ -97,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0097-interleaving-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0097-interleaving-string) |
 | [0127-word-ladder](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0139-word-break) |
@@ -271,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
