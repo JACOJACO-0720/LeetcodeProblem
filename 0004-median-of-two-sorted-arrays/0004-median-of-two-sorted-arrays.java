@@ -1,94 +1,44 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int totalLength = nums1.length+nums2.length;
-        int num1Length = nums1.length;
-        int num2Length = nums2.length;
-        int num1Cnt = -1;
-        int num2Cnt = -1;
-        int totalCount = 0;
-        int curNum = 0;
-        int preNum = 0;
-        if(totalLength%2==0){
-            while(num1Cnt+1 < num1Length && num2Cnt+1<num2Length && totalCount < totalLength/2 + 1 ){
-                if(nums1[num1Cnt+1]< nums2[num2Cnt+1]){
-
-                    preNum = curNum;
-                    curNum = nums1[num1Cnt+1];
-                    num1Cnt++;
-                    totalCount ++;
-
-                }else{
-                    preNum = curNum;
-                    curNum = nums2[num2Cnt+1];
-                    num2Cnt++;
-                    totalCount ++;
-
-                }
-            }
-
-            if(totalCount < totalLength/2 + 1){
-                if(num2Cnt+1 == num2Length){
-                    for (int i = 0; i <  totalLength/2 + 1 - totalCount ; i++) {
-                         preNum = curNum;
-                         curNum = nums1[num1Cnt+i+1];
-                    }
-                    return  (preNum+curNum)/2.0;
-                }else{
-
-                    for (int i = 0; i <  totalLength/2 + 1 - totalCount ; i++) {
-                         preNum = curNum;
-                         curNum = nums2[num2Cnt+i+1];
-                    }
-                    return  (preNum+curNum)/2.0;
-
-                }
-
-            }else{
-                return (preNum+curNum)/2.0;
-            }
-
-
-
-
-        }else{
-
-        while(num1Cnt+1 < num1Length && num2Cnt+1<num2Length && totalCount < totalLength/2 + 1 ){
-                if(nums1[num1Cnt+1]< nums2[num2Cnt+1]){
-                    curNum = nums1[num1Cnt+1];
-                    num1Cnt++;
-                    totalCount ++;
-
-                }else{
-                    curNum = nums2[num2Cnt+1];
-                    num2Cnt++;
-                    totalCount ++;
-                    
-                }
-            }
-
-            if(totalCount < totalLength/2 + 1){
-                if(num2Cnt+1 == num2Length){
-                    for (int i = 0; i <  totalLength/2 + 1 - totalCount ; i++) {
-                         curNum = nums1[num1Cnt+i+1];
-                    }
-                    return  curNum;
-                }else{
-
-                    for (int i = 0; i <  totalLength/2 + 1 - totalCount ; i++) {
-                         curNum = nums2[num2Cnt+i+1];
-                    }
-                    return  curNum;
-
-                }
-
-            }else{
-                return curNum;
-            }
-
-
-
+        // 确保 nums1 是较短的数组
+        if (nums1.length > nums2.length) {
+            return findMedianSortedArrays(nums2, nums1);
         }
 
-        
+        int m = nums1.length;
+        int n = nums2.length;
+        int totalLeft = (m + n + 1) / 2;
+
+        int left = 0;
+        int right = m;
+
+        while (left <= right) {
+            int i = left + (right - left) / 2;
+            int j = totalLeft - i;
+
+            int nums_im1 = (i == 0) ? Integer.MIN_VALUE : nums1[i - 1];
+            int nums_i = (i == m) ? Integer.MAX_VALUE : nums1[i];
+            int nums_jm1 = (j == 0) ? Integer.MIN_VALUE : nums2[j - 1];
+            int nums_j = (j == n) ? Integer.MAX_VALUE : nums2[j];
+
+            if (nums_im1 <= nums_j) {
+                if (nums_jm1 <= nums_i) {
+                    // 找到合适的分割点
+                    if ((m + n) % 2 == 1) {
+                        return Math.max(nums_im1, nums_jm1);
+                    } else {
+                        return (Math.max(nums_im1, nums_jm1) + Math.min(nums_i, nums_j)) / 2.0;
+                    }
+                } else {
+                    // nums_jm1 > nums_i，i 需要增大
+                    left = i + 1;
+                }
+            } else {
+                // nums_im1 > nums_j，i 需要减小
+                right = i - 1;
+            }
+        }
+
+        throw new IllegalArgumentException("输入的数组不合法，无法找到中位数。");
     }
 }
