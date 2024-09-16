@@ -1,48 +1,46 @@
 class Solution {
-    private int rows;
-    private int cols;
-    private Set<String> visited;
-
     public boolean exist(char[][] board, String word) {
-        rows = board.length;
-        cols = board[0].length;
-        visited = new HashSet<>();
+        int rows = board.length;
+        int cols = board[0].length;
+        // 特殊情况处理
+        if (word.length() == 0) return true;
+        if (rows * cols < word.length()) return false;
 
-        Map<Character, Integer> count = new HashMap<>();
-        for (char c : word.toCharArray()) {
-            count.put(c, count.getOrDefault(c, 0) + 1);
-        }
-
-        if (count.getOrDefault(word.charAt(0), 0) > count.getOrDefault(word.charAt(word.length() - 1), 0)) {
-            word = new StringBuilder(word).reverse().toString();
-        }
-
-        for (int r = 0; r < rows; r++) {
-            for (int c = 0; c < cols; c++) {
-                if (dfs(board, word, r, c, 0)) {
+        boolean[][] visited = new boolean[rows][cols];
+        // 遍历每个起始点
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                // 如果找到匹配的首字母，开始DFS
+                if (dfs(board, word, i, j, 0, visited)) {
                     return true;
                 }
             }
         }
-
         return false;
     }
 
-    private boolean dfs(char[][] board, String word, int r, int c, int k) {
-        if (k == word.length()) {
-            return true;
-        }
-
-        if (r < 0 || r >= rows || c < 0 || c >= cols || visited.contains(r + "," + c) || board[r][c] != word.charAt(k)) {
+    boolean dfs(char[][] board, String word, int x, int y, int index, boolean[][] visited) {
+        // 超出边界或已访问或字符不匹配，返回false
+        if (x < 0 || x >= board.length || y < 0 || y >= board[0].length ||
+            visited[x][y] || board[x][y] != word.charAt(index)) {
             return false;
         }
 
-        visited.add(r + "," + c);
-        boolean res = dfs(board, word, r + 1, c, k + 1) ||
-                      dfs(board, word, r - 1, c, k + 1) ||
-                      dfs(board, word, r, c + 1, k + 1) ||
-                      dfs(board, word, r, c - 1, k + 1);
-        visited.remove(r + "," + c);
+        // 全部字符匹配，返回true
+        if (index == word.length() - 1) {
+            return true;
+        }
+
+        visited[x][y] = true; // 标记为已访问
+
+        // 递归搜索上下左右四个方向
+        boolean res = dfs(board, word, x + 1, y, index + 1, visited) ||
+                      dfs(board, word, x - 1, y, index + 1, visited) ||
+                      dfs(board, word, x, y + 1, index + 1, visited) ||
+                      dfs(board, word, x, y - 1, index + 1, visited);
+
+        visited[x][y] = false; // 回溯，取消标记
+
         return res;
-    }    
+    }
 }
