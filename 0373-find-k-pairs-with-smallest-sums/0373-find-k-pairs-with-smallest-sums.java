@@ -1,33 +1,39 @@
 class Solution {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-        List<List<Integer>> resV = new ArrayList<>(); // Result list to store the pairs
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
-        // Priority queue to store pairs with smallest sums, sorted by the sum
-
-        // Push the initial pairs into the priority queue
-        for (int x : nums1) {
-            pq.offer(new int[]{x + nums2[0], 0}); // The sum and the index of the second element in nums2
-        }
-
-        // Pop the k smallest pairs from the priority queue
-        while (k > 0 && !pq.isEmpty()) {
-            int[] pair = pq.poll();
-            int sum = pair[0]; // Get the smallest sum
-            int pos = pair[1]; // Get the index of the second element in nums2
-
-            List<Integer> currentPair = new ArrayList<>();
-            currentPair.add(sum - nums2[pos]);
-            currentPair.add(nums2[pos]);
-            resV.add(currentPair); // Add the pair to the result list
-
-            // If there are more elements in nums2, push the next pair into the priority queue
-            if (pos + 1 < nums2.length) {
-                pq.offer(new int[]{sum - nums2[pos] + nums2[pos + 1], pos + 1});
+        List<List<Integer>> res = new ArrayList<>();
+        HashSet<String> hs = new HashSet<>();
+        PriorityQueue<Node> pq = new PriorityQueue<>((Node n1,Node n2)->(Integer.compare(n1.xnum+n1.ynum,n2.xnum+n2.ynum )));
+        pq.add(new Node(0,0,nums1[0],nums2[0]));
+        while(res.size()<k){
+            Node temp = pq.poll();
+            // hs.add(temp.x+1+"-"+temp.y);
+            List<Integer> tempres = new ArrayList<>();
+            tempres.add(temp.xnum);tempres.add(temp.ynum);
+            res.add(tempres);
+            if(temp.x<nums1.length-1 && !hs.contains((temp.x+1)+"-"+temp.y)){
+                hs.add((temp.x+1)+"-"+temp.y);
+                pq.add(new Node(temp.x+1,temp.y,nums1[temp.x+1],nums2[temp.y]));
+            }
+            if(temp.y<nums2.length-1 && !hs.contains((temp.x)+"-"+(temp.y+1))){
+                hs.add(temp.x+"-"+(temp.y+1));
+                pq.add(new Node(temp.x,temp.y+1,nums1[temp.x],nums2[temp.y+1]));
             }
 
-            k--; // Decrement k
+        
         }
-
-        return resV; // Return the k smallest pairs
+        return res;
+    }
+    
+    class Node{
+        int x;
+        int y;
+        int xnum;
+        int ynum;
+        public Node(int x,int y, int xnum, int ynum){
+            this.x = x;
+            this.y=y;
+            this.xnum=xnum;
+            this.ynum=ynum;
+        }
     }
 }
