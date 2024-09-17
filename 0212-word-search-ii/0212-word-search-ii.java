@@ -1,55 +1,46 @@
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 class Solution {
     public List<String> findWords(char[][] board, String[] words) {
-        HashSet<String> hs = new HashSet<>();
         TreeNode root = buildTree(words);
         List<String> res = new ArrayList<>();
-        boolean[][] isVisited = new boolean[board.length][board[0].length];
+        int m = board.length;
+        int n = board[0].length;
+        boolean[][] isVisited = new boolean[m][n];
         
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
-                dfs(res, root, board, isVisited, "", i, j, hs);
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                dfs(board, i, j, root, isVisited, res);
             }
         }
         return res;
     }
 
-    void dfs(List<String> res, TreeNode root, char[][] board, boolean[][] isVisited, String str, int x, int y, HashSet<String> hs) {
-        if (root == null) {
-            return;
-        }
-
-        if (root.hasValue) {
-            if (!hs.contains(str)) {
-                res.add(str);
-                hs.add(str);
-            }
-        }
-
+    void dfs(char[][] board, int x, int y, TreeNode root, boolean[][] isVisited, List<String> res) {
         if (outOfBound(board, x, y) || isVisited[x][y]) {
             return;
         }
 
-        char cur = board[x][y];
-        root = root.array[cur - 'a'];
+        char curChar = board[x][y];
+        root = root.array[curChar - 'a'];
         if (root == null) {
             return;
         }
 
-        String newStr = str + cur;
-        isVisited[x][y] = true;
-        
-        // Explore all 4 directions
-        dfs(res, root, board, isVisited, newStr, x + 1, y, hs);
-        dfs(res, root, board, isVisited, newStr, x, y + 1, hs);
-        dfs(res, root, board, isVisited, newStr, x - 1, y, hs);
-        dfs(res, root, board, isVisited, newStr, x, y - 1, hs);
+        if (root.word != null) {
+            res.add(root.word);
+            root.word = null;  // 避免重复添加
+        }
 
-        // Backtrack
-        isVisited[x][y] = false;
+        isVisited[x][y] = true;
+
+        dfs(board, x + 1, y, root, isVisited, res);
+        dfs(board, x - 1, y, root, isVisited, res);
+        dfs(board, x, y + 1, root, isVisited, res);
+        dfs(board, x, y - 1, root, isVisited, res);
+
+        isVisited[x][y] = false;  // 回溯
     }
 
     boolean outOfBound(char[][] board, int x, int y) {
@@ -58,24 +49,23 @@ class Solution {
 
     TreeNode buildTree(String[] words) {
         TreeNode root = new TreeNode();
-        
+
         for (String word : words) {
             TreeNode cur = root;
-            for (int i = 0; i < word.length(); i++) {
-                char temp = word.charAt(i);
-                if (cur.array[temp - 'a'] == null) {
-                    cur.array[temp - 'a'] = new TreeNode();
+            for (char c : word.toCharArray()) {
+                if (cur.array[c - 'a'] == null) {
+                    cur.array[c - 'a'] = new TreeNode();
                 }
-                cur = cur.array[temp - 'a'];
+                cur = cur.array[c - 'a'];
             }
-            cur.hasValue = true;  // Mark the end of a word
+            cur.word = word;  // 在终止节点存储完整单词
         }
-        
+
         return root;
     }
 
     class TreeNode {
-        boolean hasValue;
-        TreeNode[] array = new TreeNode[26];  // 26 letters for 'a' to 'z'
+        String word = null;
+        TreeNode[] array = new TreeNode[26];
     }
 }
