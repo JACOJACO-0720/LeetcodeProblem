@@ -1,65 +1,29 @@
-import java.util.ArrayList;
-import java.util.List;
-
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        //2,3,5
+        List<List<Integer>> lst = new ArrayList<>();
         Arrays.sort(candidates);
-        List<List<Integer>> res = new ArrayList<>();
-
-        for (int i = 0; i < candidates.length; i++) {
-            int temp = target;
-                temp = temp-candidates[i];
-                if(temp<0){
-                    break;
-                }
-                else if(temp==0){
-                    List<Integer> tmpRes = new ArrayList<>();
-                    tmpRes.add(candidates[i]);
-                    List<Integer> newres = new ArrayList<>();
-                    for (int j = 0; j < tmpRes.size(); j++) {
-                        newres.add(tmpRes.get(j));
-                    }
-                    res.add(newres);
-                    tmpRes.remove(tmpRes.size()-1);
-                    break;
-                }else{
-                    List<Integer> tmpRes = new ArrayList<>();
-                    tmpRes.add(candidates[i]);
-                    helperFunction(i, candidates, res, tmpRes, temp);
-                }
-
+        helperfunction(candidates, target, lst, new ArrayList<>(),0);
+        return lst;
+    }
+    void helperfunction(int[] candidates, int target, List<List<Integer>> lst, ArrayList<Integer> al, int startpoint){
+        if(target==0){
+            List<Integer> clonelst = new ArrayList<>();
+            for (int i = 0; i < al.size(); i++) {
+                clonelst.add(al.get(i));
+            }
+            lst.add(clonelst);
+        }
+        for (int i = startpoint; i < candidates.length; i++) {
+            if(target<candidates[i]){
+                continue;
+            }else{
+                al.add(candidates[i]);
+                helperfunction(candidates, target - candidates[i] , lst, al, i);
+                al.remove(al.size()-1);
+            }
         }
 
-        return res;
     }
 
-    void helperFunction(int start, int[] candidates, List<List<Integer>> res, List<Integer> tmpRes, int target){
-        for (int i = start; i < candidates.length; i++) {
-            int temp = target;
-                temp = temp-candidates[i];
-                if(temp<0){
-                    break;
-                }
-                else if(temp==0){
-                    tmpRes.add(candidates[i]);
-                    List<Integer> newres = new ArrayList<>();
-                    for (int j = 0; j < tmpRes.size(); j++) {
-                        newres.add(tmpRes.get(j));
-                    }
-                    res.add(newres);
-                    tmpRes.remove(tmpRes.size()-1);
-                    break;
-                }else{
-
-                    tmpRes.add(candidates[i]);
-                    helperFunction(i, candidates, res, tmpRes, temp);
-                    tmpRes.remove(tmpRes.size()-1);
-                }
-
-
-        }
-        
-    }
-
+    
 }
