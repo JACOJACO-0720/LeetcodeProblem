@@ -1,14 +1,12 @@
 class Solution {
     int result = 0;
     public int totalNQueens(int n) {
-
         if(n == 0){
             return 1;
         }
         int[] hm = new int[n];
         int count = 0;
         for (int i = 0; i < n; i++) {
-            //hm.put(0,i);
             hm[0] = i;
             HelperFunction(hm, count+1,n);
         }
@@ -34,6 +32,5 @@ class Solution {
                 }
                     
             }
-            
     }
 }
