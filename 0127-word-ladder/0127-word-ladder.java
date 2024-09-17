@@ -1,52 +1,60 @@
+import java.util.*;
+
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Set<String> wordSet = new HashSet<>(wordList);
-        if (!wordSet.contains(endWord)) {
-            return 0;
+        Map<String, List<String>> hm = new HashMap<>();
+        wordList.add(beginWord);
+        for(String word : wordList){
+            hm.put(word, new ArrayList<String>());
         }
-        List<String> lst = new LinkedList<>(wordList);
-        ArrayDeque<String> ad = new ArrayDeque<>();
-        ad.add(beginWord);
-        int count = 1;
-        while(!wordList.isEmpty()){
-            count++;
-            int size = ad.size();
-            for (int i = 0; i < size; i++) {
-                Iterator<String> it = lst.iterator();
-                String before = ad.pollFirst();
-                while(it.hasNext()){
-                    String  after = it.next();
-                    if(helpFunction(before,after)){
-                        ad.addLast(after);
-                        it.remove();
-                        if(after.equals(endWord)){
-                            return count;
+        for(String word: wordList){
+            StringBuilder sb = new StringBuilder(word);
+            for(int i = 0;i<word.length(); i++){
+                char origin = sb.charAt(i);
+                for(int j = 0;j<26;j++){
+                    sb.setCharAt(i, (char)('a'+j));
+                    if(!word.equals(sb.toString())){
+                        if(hm.containsKey(sb.toString())){
+                            hm.get(word).add(sb.toString());
                         }
                     }
 
                 }
-
+                sb.setCharAt(i,origin);
             }
-            if(ad.isEmpty()){
-                return 0;
+        }
+        if(!hm.containsKey(endWord)){
+            return 0;
+        }
+        int res = 1;
+        List<String> tmplst = hm.get(beginWord);
+        HashSet<String> hs = new HashSet<>();
+        ArrayDeque<String> ad = new ArrayDeque<>();
+        for(String t: tmplst){
+            ad.add(t);
+            hs.add(t);
+        }
+        while(!ad.isEmpty()){
+            res++;
+            int size= ad.size();
+            for(int i =0;i< size; i++){
+                String tmpstr = ad.poll();
+                if(tmpstr.equals(endWord)){
+                    return res;
+                }else{
+                    List<String> lst =  hm.get(tmpstr);
+                    for(int j =0;j<lst.size();j++){
+                        if(!hs.contains(lst.get(j))){
+                            ad.add(lst.get(j));
+                            hs.add(lst.get(j));
+                        }
+                    }
+
+
+                }
+
             }
         }
         return 0;
-
     }
-    boolean helpFunction( String before, String after){
-        int length = before.length();
-        int count = 0;
-        for (int i = 0; i < length; i++) {
-            if(before.charAt(i)!=after.charAt(i)){
-                count++;
-                if(count>1){
-                    return false;
-                }
-            }
-
-        }
-        return count==1;
-    }
-
 }
