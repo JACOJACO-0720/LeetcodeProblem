@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
+| [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Breadth-First Search
 |  |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1025-minimum-cost-for-tickets) |
+| [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2500-minimum-costs-using-the-train-line) |
 ## Sliding Window
