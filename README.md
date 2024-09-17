@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0135-candy) |
@@ -204,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0124-binary-tree-maximum-path-sum) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
@@ -221,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0124-binary-tree-maximum-path-sum) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
@@ -239,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0053-maximum-subarray) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0148-sort-list) |
 | [0191-number-of-1-bits](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
@@ -387,4 +391,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 <!---LeetCode Topics End-->
