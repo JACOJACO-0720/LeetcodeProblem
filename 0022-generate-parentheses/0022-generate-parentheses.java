@@ -1,34 +1,25 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> res = new ArrayList<>();
-        if(n==1){
-            res.add("()");
-            return res;
-        }
-        StringBuilder sb = new StringBuilder();
-        sb.append("()");
-        helperFunction(sb, n-1,res,1);
-
-        helperFunction(sb, n-1,res,2);
-        return res;
+        List<String> result = new ArrayList<>();
+        backtrack(result, "", 0, 0, n);
+        return result;
     }
-    void helperFunction(StringBuilder sb, int n, List<String> res, int posi ){
-        if(n==1){
-            sb.insert(posi,"()");
-            res.add(sb.toString());
-            sb.deleteCharAt(posi);
-            sb.deleteCharAt(posi);
+
+    private void backtrack(List<String> result, String current, int open, int close, int max) {
+        // If the current string is a valid combination, add it to the result
+        if (current.length() == max * 2) {
+            result.add(current);
             return;
         }
 
-        sb.insert(posi,"()");
-        for (int i = posi+1; i <= sb.length(); i++) {
-            helperFunction(sb, n-1,res,i);
+        // If we can add an open parenthesis, do so
+        if (open < max) {
+            backtrack(result, current + "(", open + 1, close, max);
         }
-        
-        //helperFunction(sb, n-1,res,posi+2);
-        sb.deleteCharAt(posi);
-        sb.deleteCharAt(posi);
 
+        // If we can add a close parenthesis, do so
+        if (close < open) {
+            backtrack(result, current + ")", open, close + 1, max);
+        }
     }
 }
