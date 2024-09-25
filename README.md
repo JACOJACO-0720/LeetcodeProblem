@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
+| [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
@@ -292,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0761-employee-free-time](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0761-employee-free-time) |
+| [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 ## Merge Sort
 |  |
 | ------- |
@@ -323,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0135-candy) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
+| [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Matrix
