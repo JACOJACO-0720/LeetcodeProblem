@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0056-merge-intervals) |
 | [0059-spiral-matrix-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
@@ -186,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0097-interleaving-string) |
@@ -306,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0135-candy) |
