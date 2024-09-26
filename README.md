@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0735-asteroid-collision](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
 | [0761-employee-free-time](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0761-employee-free-time) |
 | [0833-bus-routes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0833-bus-routes) |
 | [0954-maximum-sum-circular-subarray](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0954-maximum-sum-circular-subarray) |
@@ -266,10 +267,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0155-min-stack) |
 | [0227-basic-calculator-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0227-basic-calculator-ii) |
 | [0735-asteroid-collision](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
 ## Divide and Conquer
 |  |
 | ------- |
