@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0004-median-of-two-sorted-arrays) |
+| [0015-3sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0035-search-insert-position) |
@@ -177,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -314,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
