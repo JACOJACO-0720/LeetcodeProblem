@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 ## Math
 |  |
@@ -154,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 ## Breadth-First Search
 |  |
@@ -239,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 ## Simulation
 |  |
