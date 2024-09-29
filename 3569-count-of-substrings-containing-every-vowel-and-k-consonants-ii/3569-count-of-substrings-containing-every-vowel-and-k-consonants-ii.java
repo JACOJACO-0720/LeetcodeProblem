@@ -1,52 +1,60 @@
 class Solution {
     public long countOfSubstrings(String word, int k) {
         long ans = 0;
-        int a = 0, e = 0, i = 0, o = 0, u = 0;
+        int[] vowels = new int[5]; // 用于计数 'a', 'e', 'i', 'o', 'u'
         int left = 0;
-        // max length of follwing vowel string
-        long[] countlast = new long[word.length()];
-        for (int index = countlast.length - 1; index >= 0; index--) {
-            if (index == countlast.length - 1) {
-                countlast[index] = 0;
-            }  else {
-                if (word.charAt(index + 1) == 'a' || word.charAt(index + 1) == 'e' || word.charAt(index + 1) == 'i' || word.charAt(index + 1) == 'o' || word.charAt(index + 1) == 'u') countlast[index] = countlast[index + 1] + 1;
-                else countlast[index] = 0;
-            }
+
+        // 计算每个位置的元音连续长度
+        long[] countLast = new long[word.length()];
+        for (int index = word.length() - 2; index >= 0; index--) {
+            countLast[index] = isVowel(word.charAt(index + 1)) ? countLast[index + 1] + 1 : 0;
         }
 
         for (int right = 0; right < word.length(); right++) {
-            if (word.charAt(right) == 'a') a++;
-            if (word.charAt(right) == 'e') e++;
-            if (word.charAt(right) == 'i') i++;
-            if (word.charAt(right) == 'o') o++;
-            if (word.charAt(right) == 'u') u++;
+            updateVowelCount(word.charAt(right), vowels, 1);
 
-            while (a >= 1 && e >= 1 && i >= 1 && o >= 1 && u >= 1 && (right - left + 1) - a - e - i - o - u >= k) {
-                if ((right - left + 1) - a - e - i - o - u == k) {
-                    ans += countlast[right];
-                    ans++;
+            while (allVowelsPresent(vowels) && (right - left + 1) - sumVowels(vowels) >= k) {
+                if ((right - left + 1) - sumVowels(vowels) == k) {
+                    ans += countLast[right] + 1;
                 }
-                if (word.charAt(left) == 'a') a--;
-                if (word.charAt(left) == 'e') e--;
-                if (word.charAt(left) == 'i') i--;
-                if (word.charAt(left) == 'o') o--;
-                if (word.charAt(left) == 'u') u--;
+                updateVowelCount(word.charAt(left), vowels, -1);
                 left++;
             }
-
         }
 
-        while (left < word.length()) {
-            if (a >= 1 && e >= 1 && i >= 1 && o >= 1 && u >= 1 && (word.length() - left) - a - e - i - o - u == k){
-                ans++;
-            }
-            if (word.charAt(left) == 'a') a--;
-            if (word.charAt(left) == 'e') e--;
-            if (word.charAt(left) == 'i') i--;
-            if (word.charAt(left) == 'o') o--;
-            if (word.charAt(left) == 'u') u--;
-            left++;
-        }
         return ans;
+    }
+
+    // 判断是否为元音
+    private boolean isVowel(char c) {
+        return "aeiou".indexOf(c) != -1;
+    }
+
+    // 更新元音计数数组
+    private void updateVowelCount(char c, int[] vowels, int delta) {
+        switch (c) {
+            case 'a': vowels[0] += delta; break;
+            case 'e': vowels[1] += delta; break;
+            case 'i': vowels[2] += delta; break;
+            case 'o': vowels[3] += delta; break;
+            case 'u': vowels[4] += delta; break;
+        }
+    }
+
+    // 检查是否所有元音都至少出现一次
+    private boolean allVowelsPresent(int[] vowels) {
+        for (int v : vowels) {
+            if (v == 0) return false;
+        }
+        return true;
+    }
+
+    // 计算元音总数
+    private int sumVowels(int[] vowels) {
+        int sum = 0;
+        for (int v : vowels) {
+            sum += v;
+        }
+        return sum;
     }
 }
