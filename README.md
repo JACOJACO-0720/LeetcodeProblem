@@ -176,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0210-course-schedule-ii) |
+| [0261-graph-valid-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0261-graph-valid-tree) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
 | [0322-coin-change](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -285,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0261-graph-valid-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0261-graph-valid-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -403,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0200-number-of-islands) |
+| [0261-graph-valid-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0261-graph-valid-tree) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 ## Graph
@@ -410,6 +413,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0210-course-schedule-ii) |
+| [0261-graph-valid-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0261-graph-valid-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 ## Shortest Path
