@@ -3,82 +3,74 @@ import java.util.List;
 
 class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
-        // 构建 Trie 树
         TreeNode root = new TreeNode();
-        for (String word : wordDict) {
+        for(String word: wordDict){
             TreeNode cur = root;
-            for (int i = 0; i < word.length(); i++) {
-                int index = word.charAt(i) - 'a';
-                if (cur.list[index] == null) {
-                    cur.list[index] = new TreeNode();
+            for(int i =0;i<word.length();i++){
+                if(cur.list[word.charAt(i) -'a']==null){
+                    cur.list[word.charAt(i) -'a'] = new TreeNode();
                 }
-                cur = cur.list[index];
+                cur = cur.list[word.charAt(i)-'a'];
             }
-            cur.isend = true;  // 标记单词结束
+            cur.isend = true;
         }
 
-        // 初始化 dp 数组
         List<ArrayList<Integer>> dp = new ArrayList<>(s.length() + 1);
         for (int i = 0; i <= s.length(); i++) {
             dp.add(new ArrayList<>());
         }
 
         List<String> res = new ArrayList<>();
+
+
         ArrayList<String> temp = new ArrayList<>();
-        
-        // 调用 dfs 进行回溯搜索
-        dfs(s, dp, res, 0, temp, root);
-        
+        dfs(s, dp, res, 0, temp,root);
         return res;
     }
-
-    // 深度优先搜索函数
-    void dfs(String s, List<ArrayList<Integer>> dp, List<String> res, int cur, ArrayList<String> temp, TreeNode root) {
-        if (cur == s.length()) {
+    void dfs(String s, List<ArrayList<Integer>> dp, List<String> res, int cur, ArrayList<String> temp, TreeNode root){
+        if(cur == s.length()){
             StringBuilder sb = new StringBuilder();
-            for (String t : temp) {
-                sb.append(t).append(" ");
+            for (int i = 0; i < temp.size(); i++) {
+                sb.append(temp.get(i)).append(" ");
             }
-            sb.deleteCharAt(sb.length() - 1); // 移除最后一个空格
+            sb.deleteCharAt(sb.length()-1);
             res.add(sb.toString());
-            return;
+            return ;
         }
-
-        if (!dp.get(cur).isEmpty()) {
+        if(!dp.get(cur).isEmpty()){
             List<Integer> tmplst = dp.get(cur);
-            for (int next : tmplst) {
-                temp.add(s.substring(cur, next + 1));
-                dfs(s, dp, res, next + 1, temp, root);
-                temp.remove(temp.size() - 1);
+            for (int i = 0; i < tmplst.size(); i++) {
+                temp.add(s.substring(cur, tmplst.get(i)+1));
+                dfs(s, dp, res, tmplst.get(i)+1, temp,root);
+                temp.remove(temp.size()-1);
             }
             return;
         }
-
         int tempcur = cur;
         TreeNode curNode = root;
         ArrayList<Integer> tempdp = new ArrayList<>();
-        
-        while (tempcur < s.length()) {
-            int index = s.charAt(tempcur) - 'a';
-            if (curNode.list[index] == null) {
-                break;  // 不能继续匹配
-            }
-            curNode = curNode.list[index];
-            if (curNode.isend) {
-                tempdp.add(tempcur);  // 记录可分割点
-                temp.add(s.substring(cur, tempcur + 1));
-                dfs(s, dp, res, tempcur + 1, temp, root);
-                temp.remove(temp.size() - 1);  // 回溯
-            }
-            tempcur++;
-        }
+        while(tempcur < s.length()){
+            if(curNode.list[s.charAt(tempcur)-'a']==null){
+                dp.set(cur,tempdp);
+                return;
+            }else{
+                curNode = curNode.list[s.charAt(tempcur)-'a'];
+                if(curNode.isend){
+                    tempdp.add(tempcur);
+                    temp.add(s.substring(cur, tempcur+1));
+                    dfs(s, dp, res, tempcur+1,  temp, root);
+                    temp.remove(temp.size()-1);
 
-        dp.set(cur, tempdp);  // 缓存当前状态的可分割点
+                }
+                tempcur++;
+            }
+        }
+        dp.set(cur,tempdp);
+        return;
     }
 
-    // Trie 树节点类
-    class TreeNode {
-        TreeNode[] list = new TreeNode[26];  // 每个节点代表一个字母
-        boolean isend = false;               // 标记是否是一个单词的结束
+    class TreeNode{
+        TreeNode[] list = new TreeNode[26];
+        boolean isend = false;
     }
 }
