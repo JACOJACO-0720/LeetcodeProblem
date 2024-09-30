@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
 | [0228-summary-ranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0228-summary-ranges) |
+| [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
 | [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -203,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
@@ -326,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -345,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -365,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
@@ -505,4 +510,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3557-minimum-number-of-valid-strings-to-form-target-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3557-minimum-number-of-valid-strings-to-form-target-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 <!---LeetCode Topics End-->
