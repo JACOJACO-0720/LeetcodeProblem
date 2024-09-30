@@ -19,12 +19,6 @@ class Solution {
             lst.get(t[0]).add(t[1]);
             lst.get(t[1]).add(t[0]);
         }
-
-        for (int i = 0; i < lst.size(); i++) {
-            if(lst.get(i).isEmpty()){
-                return false;
-            }
-        }
         int cur = 0;
         boolean res =  dfs(cur, visited, -1, lst);
         for (int i = 0; i < visited.length; i++) {
