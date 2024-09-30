@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
+| [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2500-minimum-costs-using-the-train-line) |
@@ -295,12 +296,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0227-basic-calculator-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0227-basic-calculator-ii) |
 | [0735-asteroid-collision](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
+| [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
+| [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -385,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
+| [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 ## Graph
 |  |
 | ------- |
