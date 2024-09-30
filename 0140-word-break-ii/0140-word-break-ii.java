@@ -15,7 +15,7 @@ class Solution {
             cur.isend = true;
         }
 
-        List<ArrayList<Integer>> dp = new ArrayList<>(s.length() + 1);
+        List<ArrayList<Integer>> dp = new ArrayList<>(s.length());
         for (int i = 0; i <= s.length(); i++) {
             dp.add(new ArrayList<>());
         }
