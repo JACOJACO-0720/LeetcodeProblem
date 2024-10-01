@@ -1,28 +1,24 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 class Solution {
     public int[][] merge(int[][] intervals) {
-        if(intervals.length==1){
-        return intervals;
-    }
-        List<int[]> res  = new ArrayList<>();
-        Arrays.sort(intervals, (int[] it0,int[] it1) -> Integer.compare(it0[0], it1[0]) );
-        int[] current = intervals[0];
+
+        Arrays.sort(intervals,(n1,n2)->(Integer.compare(n1[0], n2[0])));
+        ArrayList<int[]> al = new ArrayList<>();
+        int[] cur = intervals[0];
         for (int i = 1; i < intervals.length; i++) {
-            if(current[1]>=intervals[i][0]){
-                int[] temp = new int[2];
-                temp[0] = current[0];
-                temp[1] = Math.max(current[1], intervals[i][1]);
-                current = temp;
+            int[] temp = intervals[i];
+            if(temp[0]>cur[1]){
+                al.add(cur);
+                cur = temp;
             }else{
-                res.add(current);
-                current = intervals[i];
+                cur[1] = Math.max(cur[1], temp[1]);
             }
         }
-        res.add(current);
-        
-        return res.toArray(new int[res.size()][]);
+        al.add(cur);
+
+        return al.toArray(new int[al.size()][]);
+
     }
 }
