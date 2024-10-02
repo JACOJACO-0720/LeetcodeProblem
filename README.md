@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0040-combination-sum-ii) |
+| [0041-first-missing-positive](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0046-permutations) |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0036-valid-sudoku) |
+| [0041-first-missing-positive](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0128-longest-consecutive-sequence) |
