@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0038-count-and-say](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0038-count-and-say) |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
