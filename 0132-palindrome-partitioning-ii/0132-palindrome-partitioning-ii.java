@@ -1,15 +1,9 @@
 class Solution {
     public int minCut(String s) {
         int n = s.length();
-        // dp[i] 表示从第i个字符到字符串末尾需要的最小切割数
-        int[] dp = new int[n + 1];
-        for (int i = 0; i < n; i++) {
-            dp[i] = i;  // 最坏的情况下，每个字符都要切割
-        }
+        int[] dp = new int[n];  // dp[i] 表示从第i个字符到字符串末尾的最小切割数
+        boolean[][] isPalindrome = new boolean[n][n];  // 记录每个子串是否是回文
 
-        // isPalindrome[i][j] 表示 s[i...j] 是否为回文
-        boolean[][] isPalindrome = new boolean[n][n];
-        
         // 预处理所有子串是否是回文
         for (int end = 0; end < n; end++) {
             for (int start = 0; start <= end; start++) {
@@ -19,21 +13,25 @@ class Solution {
             }
         }
 
-        // 计算最小切割数
-        for (int i = 1; i < n; i++) {
-            if (isPalindrome[0][i]) {
-                dp[i] = 0;  // 如果 s[0...i] 是回文，不需要切割
-            } else {
-                // 尝试所有可能的切割点
-                for (int j = 0; j < i; j++) {
-                    if (isPalindrome[j + 1][i]) {
-                        dp[i] = Math.min(dp[i], dp[j] + 1);
-                    }
-                }
+        return helperFunction(s, 0, dp, isPalindrome) - 1;  // 减1是因为多加了1次切割
+    }
+
+    int helperFunction(String s, int start, int[] dp, boolean[][] isPalindrome) {
+        if (start == s.length()) {
+            return 0;  // 已经到了字符串末尾，0次切割
+        } else if (dp[start] != 0) {
+            return dp[start];  // 返回已经计算过的结果
+        }
+
+        int min = Integer.MAX_VALUE;
+        for (int i = start; i < s.length(); i++) {
+            if (isPalindrome[start][i]) {  // 如果s[start...i]是回文
+                min = Math.min(min, helperFunction(s, i + 1, dp, isPalindrome) + 1);  // 递归求解剩下部分的最小切割数
             }
         }
-        
-        return dp[n - 1];
+
+        dp[start] = min;  // 记忆化存储结果
+        return min;
     }
 
     public static void main(String[] args) {
