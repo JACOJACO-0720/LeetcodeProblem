@@ -125,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [0227-basic-calculator-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0227-basic-calculator-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
+| [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
 | [1971-incremental-memory-leak](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1971-incremental-memory-leak) |
 ## Geometry
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
+| [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
@@ -245,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0024-swap-nodes-in-pairs) |
 | [0206-reverse-linked-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0206-reverse-linked-list) |
+| [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -357,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0227-basic-calculator-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0227-basic-calculator-ii) |
 | [0735-asteroid-collision](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
+| [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
 | [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 ## Monotonic Stack
 |  |
