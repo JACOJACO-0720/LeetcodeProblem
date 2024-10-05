@@ -21,10 +21,8 @@ class Solution {
                     if(stk.isEmpty()){
                         stk.add(new Node(heights[i],0));
                     }
-                    if(heights[i] == stk.peek().height){
-                        continue;
-                    }else{
-                        stk.add(new Node(heights[i], temp.index));
+                    if(heights[i] != stk.peek().height){
+                       stk.add(new Node(heights[i], temp.index));
                     }
                 }
             }
