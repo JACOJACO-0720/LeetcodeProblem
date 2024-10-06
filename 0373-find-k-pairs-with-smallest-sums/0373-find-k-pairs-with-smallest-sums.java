@@ -6,7 +6,6 @@ class Solution {
         pq.add(new Node(0,0,nums1[0],nums2[0]));
         while(res.size()<k){
             Node temp = pq.poll();
-            // hs.add(temp.x+1+"-"+temp.y);
             List<Integer> tempres = new ArrayList<>();
             tempres.add(temp.xnum);tempres.add(temp.ynum);
             res.add(tempres);
