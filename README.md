@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [0227-basic-calculator-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0227-basic-calculator-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0072-edit-distance) |
 | [0087-scramble-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0087-scramble-string) |
 | [0097-interleaving-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0097-interleaving-string) |
@@ -569,6 +571,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0140-word-break-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
