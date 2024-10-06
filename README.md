@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3557-minimum-number-of-valid-strings-to-form-target-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3557-minimum-number-of-valid-strings-to-form-target-ii) |
 ## Hash Table
 |  |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 ## Math
@@ -194,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3557-minimum-number-of-valid-strings-to-form-target-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3557-minimum-number-of-valid-strings-to-form-target-ii) |
 | [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
@@ -530,6 +533,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0212-word-search-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Data Stream
 |  |
 | ------- |
