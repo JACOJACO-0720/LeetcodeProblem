@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0059-spiral-matrix-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
+| [0073-set-matrix-zeroes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0041-first-missing-positive) |
+| [0073-set-matrix-zeroes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
 | [0126-word-ladder-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0127-word-ladder) |
@@ -476,6 +478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0036-valid-sudoku) |
 | [0059-spiral-matrix-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0085-maximal-rectangle) |
