@@ -1,41 +1,33 @@
 class Solution {
-    public boolean search(int[] nums, int k) {
+    public boolean search(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
 
-        int low =0, high = nums.length-1;
-
-        while(low<=high){
-
-            int mid = low + (high-low)/2;
-
-            if(nums[mid]==k) return true;
-
-            if(nums[low]==nums[mid]&& nums[mid]==nums[high]) {
-                low++;
-                high--;
+        while (left <= right) {
+            if(nums[left]==nums[right] && nums[left]!=target){
+                left++;
+                right--;
                 continue;
             }
+            int mid = (left + right) / 2;
 
-            else if (nums[low]<= nums[mid]){
-
-                if(k>=nums[low] && k<= nums[mid]){
-                    high = mid-1;
+            if (nums[mid] == target) {
+                return true;
+            } else if (nums[mid] >= nums[left]) {
+                if (nums[left] <= target && target <= nums[mid]) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
                 }
-                else{
-                    low = mid+1;
-                }
-            }
-            else{
-
-                if(k>=nums[mid] && k<=nums[high]){
-                    low= mid+1;
-                }
-                else{
-                    high = mid-1;
+            } else {
+                if (nums[mid] <= target && target <= nums[right]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
                 }
             }
         }
-        return false;
 
-        
+        return false;        
     }
 }
