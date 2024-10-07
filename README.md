@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [0833-bus-routes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0833-bus-routes) |
+| [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
+| [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3557-minimum-number-of-valid-strings-to-form-target-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3557-minimum-number-of-valid-strings-to-form-target-ii) |
@@ -442,6 +444,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0761-employee-free-time](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0761-employee-free-time) |
 | [1184-car-pooling](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1184-car-pooling) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
+| [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
 ## Queue
 |  |
 | ------- |
@@ -591,6 +594,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
+| [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
 ## Quickselect
 |  |
 | ------- |
