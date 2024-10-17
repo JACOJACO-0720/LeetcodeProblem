@@ -5,7 +5,7 @@ class Solution {
 
     }
     int dfs(int[] dp, int x, int[] nums, int prev){
-        if(x== nums.length){
+        if(x == nums.length){
             return 0;
         }
 
