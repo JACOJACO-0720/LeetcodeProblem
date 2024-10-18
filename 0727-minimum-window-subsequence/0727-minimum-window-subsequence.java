@@ -6,13 +6,12 @@ class Solution {
         int[][] dp = new int[n2 + 1][n1 + 1];
         int len = n1 + 1, endOfWindow = -1;
 
-        // 遍历 t 和 s 的每个字符
+
         for (int i = 1; i <= n2; i++) {
             for (int j = 1; j <= n1; j++) {
-                // 当 t 的字符与 s 的字符相同时
                 if (t.charAt(i - 1) == s.charAt(j - 1)) {
                     // 检查前一个位置的值
-                    if (i != 1 && dp[i - 1][j - 1] <= 0) {
+                    if (i != 1 && dp[i - 1][j - 1] == 0) {
                         dp[i][j] = 0; // 如果 i 不等于 1 且前一个位置的值小于等于 0，则当前值为 0
                     } else {
                         dp[i][j] = 1 + dp[i - 1][j - 1]; // 否则，当前值为前一个位置的值加 1
