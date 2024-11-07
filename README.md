@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1380-number-of-closed-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1380-number-of-closed-islands) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
@@ -308,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1025-minimum-cost-for-tickets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1025-minimum-cost-for-tickets) |
 | [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2500-minimum-costs-using-the-train-line) |
@@ -406,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
 | [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 ## Monotonic Stack
 |  |
@@ -414,6 +417,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0085-maximal-rectangle) |
 | [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 ## Divide and Conquer
 |  |
@@ -482,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2565-merge-operations-to-turn-array-into-a-palindrome](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2565-merge-operations-to-turn-array-into-a-palindrome) |
