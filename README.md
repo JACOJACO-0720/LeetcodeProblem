@@ -208,6 +208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [2687-lexicographically-smallest-beautiful-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2687-lexicographically-smallest-beautiful-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3557-minimum-number-of-valid-strings-to-form-target-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3557-minimum-number-of-valid-strings-to-form-target-ii) |
 | [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
@@ -491,6 +492,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2565-merge-operations-to-turn-array-into-a-palindrome](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2565-merge-operations-to-turn-array-into-a-palindrome) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [2687-lexicographically-smallest-beautiful-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2687-lexicographically-smallest-beautiful-string) |
 ## Matrix
 |  |
 | ------- |
