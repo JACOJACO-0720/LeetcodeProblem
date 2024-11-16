@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 | [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2687-lexicographically-smallest-beautiful-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -365,6 +367,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
 ## Depth-First Search
 |  |
@@ -391,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 | [2399-minimum-flips-in-binary-tree-to-get-result](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2399-minimum-flips-in-binary-tree-to-get-result) |
 ## Binary Tree
 |  |
@@ -554,6 +558,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0547-number-of-provinces) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Shortest Path
 |  |
 | ------- |
@@ -604,6 +609,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Bit Manipulation
 |  |
 | ------- |
