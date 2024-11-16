@@ -17,7 +17,6 @@ class Solution {
         int max = 0;
 
         for(int child: subtrees[node]) {
-            if (child == parent) continue;
             int part = dfs(child, node, subtrees, s);
             ans = Math.max(ans, part + max + 1);
             max = Math.max(max, part);
