@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
+| [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0735-asteroid-collision](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
@@ -124,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [0833-bus-routes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0833-bus-routes) |
 | [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
@@ -453,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
+| [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [0761-employee-free-time](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0761-employee-free-time) |
 | [1184-car-pooling](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1184-car-pooling) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
@@ -477,6 +480,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
+| [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [0761-employee-free-time](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0761-employee-free-time) |
 | [1184-car-pooling](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1184-car-pooling) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
@@ -498,6 +502,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
+| [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
@@ -636,6 +641,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
 ## Quickselect
 |  |
