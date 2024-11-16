@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -255,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0042-trapping-rain-water) |
+| [0075-sort-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0141-linked-list-cycle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0148-sort-list) |
@@ -456,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
 | [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
