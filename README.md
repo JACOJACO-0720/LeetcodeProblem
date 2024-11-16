@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0204-count-primes) |
 | [0212-word-search-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0216-combination-sum-iii) |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
+| [0204-count-primes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0204-count-primes) |
 | [0227-basic-calculator-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0227-basic-calculator-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
@@ -660,4 +662,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0062-unique-paths) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
