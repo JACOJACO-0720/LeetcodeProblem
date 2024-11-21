@@ -23,11 +23,10 @@ class Solution {
         } 
         return null;
     }
-    int find(int anc1 ,int[] ancester){
-        if(ancester[anc1]==anc1){
-            return anc1;
-        }else{
-            return find(ancester[anc1], ancester);
-        }
+int find(int node, int[] parent) {
+    if (parent[node] != node) {
+        parent[node] = find(parent[node], parent); // 将节点直接连接到根节点
     }
+    return parent[node];
+}
 }
