@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0216-combination-sum-iii) |
+| [0220-contains-duplicate-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0221-maximal-square) |
 | [0228-summary-ranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0228-summary-ranges) |
 | [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
@@ -340,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
+| [0220-contains-duplicate-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0220-contains-duplicate-iii) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0727-minimum-window-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0727-minimum-window-subsequence) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
@@ -486,6 +488,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
+| [0220-contains-duplicate-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0220-contains-duplicate-iii) |
 | [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
@@ -658,6 +661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bucket Sort
 |  |
 | ------- |
+| [0220-contains-duplicate-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0220-contains-duplicate-iii) |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
 ## Counting
 |  |
@@ -708,4 +712,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0277-find-the-celebrity](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0277-find-the-celebrity) |
+## Ordered Set
+|  |
+| ------- |
+| [0220-contains-duplicate-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0220-contains-duplicate-iii) |
 <!---LeetCode Topics End-->
