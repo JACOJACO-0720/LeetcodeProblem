@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0269-alien-dictionary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0269-alien-dictionary) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
+| [0296-best-meeting-point](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0296-best-meeting-point) |
 | [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0322-coin-change) |
@@ -151,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [0204-count-primes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0204-count-primes) |
 | [0227-basic-calculator-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0227-basic-calculator-ii) |
+| [0296-best-meeting-point](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0296-best-meeting-point) |
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
 | [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
@@ -491,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0220-contains-duplicate-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0220-contains-duplicate-iii) |
 | [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
+| [0296-best-meeting-point](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0296-best-meeting-point) |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0435-non-overlapping-intervals) |
@@ -540,6 +543,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0221-maximal-square) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
+| [0296-best-meeting-point](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0296-best-meeting-point) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
