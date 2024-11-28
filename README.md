@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
 | [0296-best-meeting-point](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0296-best-meeting-point) |
 | [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -244,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0269-alien-dictionary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0269-alien-dictionary) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0322-coin-change](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
@@ -394,6 +396,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0261-graph-valid-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
@@ -544,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0221-maximal-square](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0221-maximal-square) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
 | [0296-best-meeting-point](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0296-best-meeting-point) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
@@ -596,6 +600,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0907-koko-eating-bananas](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1056-capacity-to-ship-packages-within-d-days) |
