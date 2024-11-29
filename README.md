@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3557-minimum-number-of-valid-strings-to-form-target-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3557-minimum-number-of-valid-strings-to-form-target-ii) |
+| [3646-sum-of-good-subsequences](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3646-sum-of-good-subsequences) |
 ## Hash Table
 |  |
 | ------- |
@@ -143,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
+| [3646-sum-of-good-subsequences](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3646-sum-of-good-subsequences) |
 ## Math
 |  |
 | ------- |
@@ -342,6 +344,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2500-minimum-costs-using-the-train-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2500-minimum-costs-using-the-train-line) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
 | [3557-minimum-number-of-valid-strings-to-form-target-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3557-minimum-number-of-valid-strings-to-form-target-ii) |
+| [3646-sum-of-good-subsequences](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3646-sum-of-good-subsequences) |
 ## Sliding Window
 |  |
 | ------- |
