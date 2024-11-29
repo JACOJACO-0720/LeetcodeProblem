@@ -153,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0007-reverse-integer](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0007-reverse-integer) |
 | [0012-integer-to-roman](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0013-roman-to-integer) |
+| [0060-permutation-sequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
@@ -301,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0024-swap-nodes-in-pairs) |
+| [0060-permutation-sequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0206-reverse-linked-list) |
 | [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
 ## Dynamic Programming
