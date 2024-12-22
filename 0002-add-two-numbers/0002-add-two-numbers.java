@@ -10,73 +10,87 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        StringBuilder sb = new StringBuilder();
-        boolean isCarry = false;
-        while(l1!=null&l2!=null){
-            if(isCarry==true){
-                if(l1.val+l2.val+1>=10){
-                    isCarry=true;
-                    sb.append((l1.val+l2.val+1)-10);
+        boolean carry = false;
+        ListNode l1head = l1;
+        ListNode l2head = l2;
+
+        while(l1!=null && l2!=null){
+
+            int tempsum = l1.val+l2.val;
+            if(carry){
+                tempsum ++;
+                carry = false;
+            }
+
+            if(tempsum>=10){
+                carry = true;
+                tempsum = tempsum%10;
+            }
+            l1.val = tempsum;
+            l2.val = tempsum;
+
+            if(l1.next ==null && l2.next ==null && carry==true){
+                ListNode ln = new ListNode(1);
+                l1.next = ln;
+                return l1head;
+            }
+            l1 = l1.next;
+            l2 = l2.next;
+
+            
+        }
+
+        if(l1!=null){
+            while(l1!=null){
+                if(carry==true){
+                    l1.val++;
+                    if(l1.val==10){
+                        l1.val = 0;
+                        if(l1.next==null){
+                            ListNode ln = new ListNode(1);
+                            l1.next = ln;
+                            return l1head;
+                        }else{
+                            l1 = l1.next;
+                        }
+                        
+                    }else{
+                        return l1head;
+                    }
                 }else{
-                    sb.append((l1.val+l2.val+1)%10);
-                    isCarry = false;
-                }
-            }else{
-                if(l1.val+l2.val>=10){
-                    isCarry=true;
-                    sb.append((l1.val+l2.val)-10);
-                }else{
-                    sb.append((l1.val+l2.val)%10);
-                    isCarry = false;
+                    break;
                 }
             }
 
-            l1=l1.next;
-            l2=l2.next;
         }
 
-        if(l1==null){
+
+        else if(l2!=null){
             while(l2!=null){
-                if((l2.val + (isCarry?1:0))>=10){
-
-                    sb.append((l2.val + 1)%10);
-                   l2=l2.next;
+                if(carry==true){
+                    l2.val++;
+                    if(l2.val==10){
+                        l2.val = 0;
+                        if(l2.next==null){
+                            ListNode ln = new ListNode(1);
+                            l2.next = ln;
+                            return l2head;
+                        }else{
+                            l2 = l2.next;
+                        }
+                    }else{
+                        return l2head;
+                    }
                 }else{
-                    sb.append(l2.val+(isCarry?1:0));
-                    isCarry=false;
-  
-                   l2=l2.next;
+                    return l2head;
                 }
-
-            }
-
-        }else{
-           while(l1!=null){
-                if((l1.val + (isCarry?1:0))>=10){
-
-                    sb.append((l1.val + 1) %10);
-                   l1=l1.next;
-                }else{
-                    sb.append(l1.val+(isCarry?1:0));
-                    isCarry=false;
-                    
-                   l1=l1.next;
-                }
-
             }
         }
 
-        if(isCarry==true){
-            sb.append('1');
-        }
 
-        ListNode head = new ListNode(Integer.valueOf(sb.charAt(0)-'0'));
-        ListNode current =  head;
-        for (int i = 1; i < sb.length(); i++) {
-            ListNode temp = new ListNode(Integer.valueOf(sb.charAt(i)-'0'));
-            current.next = temp;
-            current = temp;
-        }
-        return head;
+        return l1head;
+
+
+
     }
 }
