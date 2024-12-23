@@ -1,36 +1,45 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         HashMap<Integer, Integer> hm = new HashMap<>();
-        // 将中序遍历的值和索引存入哈希表
-        for (int i = 0; i < inorder.length; i++) {
+        
+        for(int i =0;i< inorder.length; i++){
             hm.put(inorder[i], i);
         }
-        // 调用递归函数构建树
-        return helperFunction(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, hm);
+
+        TreeNode root = new TreeNode(preorder[0]);
+        int mid = hm.get(preorder[0]);
+        root.left = helperFunction(preorder, inorder, hm, 0, mid-1, 1, mid-0);
+        root.right = helperFunction(preorder, inorder, hm, mid+1, inorder.length-1, mid+1, preorder.length-1);
+        return root;
     }
 
-    // 递归辅助函数
-    TreeNode helperFunction(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd, HashMap<Integer, Integer> hm) {
-        if (preStart > preEnd || inStart > inEnd) {
-            return null; // 基础情况
+    TreeNode helperFunction(int[] preorder, int[] inorder, HashMap<Integer, Integer> hm, int left, int right, int l, int r){
+        if(left>right){
+            return null;
+        }else if(left==right){
+            TreeNode newt = new TreeNode(preorder[l]);
+            return newt;
+        }else{
+            TreeNode root = new TreeNode(preorder[l]);
+            int mid = hm.get(preorder[l]);
+            root.left = helperFunction(preorder, inorder, hm, left, mid-1, l+1, l+1+(mid-left-1));
+            root.right = helperFunction(preorder, inorder, hm, mid+1, right, l+1+(mid-left), r);
+            return root;
         }
-
-        // 根节点是前序遍历的第一个元素
-        int rootVal = preorder[preStart];
-        TreeNode root = new TreeNode(rootVal);
-
-        // 找到根节点在中序遍历中的索引
-        int rootIndex = hm.get(rootVal);
-
-        // 计算左子树的大小
-        int leftSize = rootIndex - inStart;
-
-        // 递归构建左子树
-        root.left = helperFunction(preorder, preStart + 1, preStart + leftSize, inorder, inStart, rootIndex - 1, hm);
-
-        // 递归构建右子树
-        root.right = helperFunction(preorder, preStart + leftSize + 1, preEnd, inorder, rootIndex + 1, inEnd, hm);
-
-        return root;
     }
 }
