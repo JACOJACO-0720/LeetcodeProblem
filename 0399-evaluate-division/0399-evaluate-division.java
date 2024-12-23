@@ -1,51 +1,66 @@
+import java.util.*;
+
 class Solution {
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
-        Map<String, String> parent = new HashMap<>();
-        Map<String, Double> weight = new HashMap<>();
+        double[] result = new double[queries.size()];
+        Map<String, List<Node>> hm  = new HashMap<>();
 
-        // 初始化并查集
         for (int i = 0; i < equations.size(); i++) {
-            String a = equations.get(i).get(0);
-            String b = equations.get(i).get(1);
-            union(parent, weight, a, b, values[i]);
+            List<String> tempal = equations.get(i);
+            double value = values[i];
+            String num = tempal.get(0);
+            String denum = tempal.get(1);
+            List<Node> list = hm.getOrDefault(num, new ArrayList<>());
+            list.add(new Node(denum,value));
+            ////////////////////////
+            List<Node> list2 = hm.getOrDefault(denum, new ArrayList<>());
+            list2.add(new Node(num,1/value));
+            hm.put(num, list);
+            hm.put(denum, list2);
         }
 
-        double[] result = new double[queries.size()];
         for (int i = 0; i < queries.size(); i++) {
-            String a = queries.get(i).get(0);
-            String b = queries.get(i).get(1);
-            if (!parent.containsKey(a) || !parent.containsKey(b) || !find(parent, weight, a).equals(find(parent, weight, b))) {
-                result[i] = -1.0;
-            } else {
-                result[i] = weight.get(a) / weight.get(b);
-            }
+            List<String> temp = queries.get(i);
+            HashSet<String> hs = new HashSet<>();
+            double doubleresult = dfs(hm,temp.get(0),temp.get(1),hs, 1);
+            result[i] = doubleresult;
+            
         }
         return result;
-    }
 
-    private void union(Map<String, String> parent, Map<String, Double> weight, String a, String b, double value) {
-        if (!parent.containsKey(a)) {
-            parent.put(a, a);
-            weight.put(a, 1.0);
-        }
-        if (!parent.containsKey(b)) {
-            parent.put(b, b);
-            weight.put(b, 1.0);
-        }
-        String rootA = find(parent, weight, a);
-        String rootB = find(parent, weight, b);
-        if (!rootA.equals(rootB)) {
-            parent.put(rootA, rootB);
-            weight.put(rootA, value * weight.get(b) / weight.get(a));
-        }
     }
-
-    private String find(Map<String, String> parent, Map<String, Double> weight, String x) {
-        if (!x.equals(parent.get(x))) {
-            String origin = parent.get(x);
-            parent.put(x, find(parent, weight, origin));
-            weight.put(x, weight.get(x) * weight.get(origin));
+    double dfs (Map<String, List<Node>> hm, String start,String end, HashSet<String> hs, double result){
+        hs.add(start);
+        List<Node> listNode = null;
+        if(hm.containsKey(start)){
+            listNode = hm.get(start);
+        }else{
+            return -1;
         }
-        return parent.get(x);
+        
+        
+        for (int i = 0; i < listNode.size() ; i++) {
+            Node tempNode = listNode.get(i);
+            if(tempNode.str.equals(end)) {
+                result *= tempNode.value;
+                return result;
+            }else{
+                if(!hs.contains(tempNode.str) && hm.containsKey(tempNode.str)){
+                    double value =  dfs(hm, tempNode.str,end, hs, result*tempNode.value);
+                    if(value != -1){
+                        return value;
+                    }
+                }
+            }
+        }
+        return -1;
+    }
+    class Node {
+        String str;
+        double value;
+        public Node(String str, double value){
+            this.str =str;
+            this.value = value;
+        }
     }
 }
