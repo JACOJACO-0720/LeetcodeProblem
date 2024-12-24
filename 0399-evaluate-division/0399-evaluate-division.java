@@ -1,66 +1,87 @@
-import java.util.*;
-
 class Solution {
+    private int[] parent;
+    private double[] val;
+    
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
-        double[] result = new double[queries.size()];
-        Map<String, List<Node>> hm  = new HashMap<>();
-
-        for (int i = 0; i < equations.size(); i++) {
-            List<String> tempal = equations.get(i);
-            double value = values[i];
-            String num = tempal.get(0);
-            String denum = tempal.get(1);
-            List<Node> list = hm.getOrDefault(num, new ArrayList<>());
-            list.add(new Node(denum,value));
-            ////////////////////////
-            List<Node> list2 = hm.getOrDefault(denum, new ArrayList<>());
-            list2.add(new Node(num,1/value));
-            hm.put(num, list);
-            hm.put(denum, list2);
-        }
-
-        for (int i = 0; i < queries.size(); i++) {
-            List<String> temp = queries.get(i);
-            HashSet<String> hs = new HashSet<>();
-            double doubleresult = dfs(hm,temp.get(0),temp.get(1),hs, 1);
-            result[i] = doubleresult;
-            
-        }
-        return result;
-
-    }
-    double dfs (Map<String, List<Node>> hm, String start,String end, HashSet<String> hs, double result){
-        hs.add(start);
-        List<Node> listNode = null;
-        if(hm.containsKey(start)){
-            listNode = hm.get(start);
-        }else{
-            return -1;
-        }
-        
-        
-        for (int i = 0; i < listNode.size() ; i++) {
-            Node tempNode = listNode.get(i);
-            if(tempNode.str.equals(end)) {
-                result *= tempNode.value;
-                return result;
-            }else{
-                if(!hs.contains(tempNode.str) && hm.containsKey(tempNode.str)){
-                    double value =  dfs(hm, tempNode.str,end, hs, result*tempNode.value);
-                    if(value != -1){
-                        return value;
-                    }
-                }
+        var h = new HashMap<String, Integer>();
+        var size = 0;
+        for(var e : equations){
+            if(!h.containsKey(e.get(0))){
+                h.put(e.get(0),size++);
+            }
+            if(!h.containsKey(e.get(1))){
+                h.put(e.get(1),size++);
             }
         }
-        return -1;
-    }
-    class Node {
-        String str;
-        double value;
-        public Node(String str, double value){
-            this.str =str;
-            this.value = value;
+        
+        parent = new int[size];
+        val = new double[size];
+        for(int i = 0; i < size; i++){
+            parent[i] = i;
+            val[i] = 1.0d;
         }
+        
+        for(int i = 0;  i < equations.size(); i++){
+            var e = equations.get(i);
+            var idx0 = h.get(e.get(0));
+            var idx1 = h.get(e.get(1));
+            union(idx0, idx1, values[i]);
+        }
+        
+        var n = queries.size();
+        var result = new double[n];
+        for(int i = 0; i < n; i++){
+            var q = queries.get(i);
+            var s1 = q.get(0);
+            var s2 = q.get(1);
+            
+            var idx1 = h.get(s1);
+            var idx2 = h.get(s2);
+            if(idx1 == null || idx2 == null){
+                result[i] = -1.0d;
+                continue;
+            }
+
+            if(idx1 == idx2){
+                result[i] = 1.0d;
+                continue;
+            }
+            
+            var a = find(idx1);
+            var b = find(idx2);
+            if(a != b){
+                result[i] = -1.0d;
+                continue;
+            }
+            else{
+                result[i] = val[idx1] / val[idx2];
+            }
+        }
+        
+        return result;
+    }
+    
+    private int find(int x){
+        if(x == parent[x]) return x;
+        
+        var v = 1.0d;
+        var a = x;
+        while(a != parent[a]){
+            v = v * val[a];
+            a = parent[a];
+        }
+        
+        parent[x] = a;
+        val[x] = v;
+        return a;
+    }
+    
+    private void union(int x, int y, double v){
+        var a = find(x);
+        var b = find(y);
+        if(a == b) return;
+        
+        parent[a] = b;
+        val[a] = v * (val[y] / val[x]);
     }
 }
