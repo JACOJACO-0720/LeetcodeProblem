@@ -1,87 +1,68 @@
-class Solution {
-    private int[] parent;
-    private double[] val;
-    
-    public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
-        var h = new HashMap<String, Integer>();
-        var size = 0;
-        for(var e : equations){
-            if(!h.containsKey(e.get(0))){
-                h.put(e.get(0),size++);
-            }
-            if(!h.containsKey(e.get(1))){
-                h.put(e.get(1),size++);
-            }
-        }
-        
-        parent = new int[size];
-        val = new double[size];
-        for(int i = 0; i < size; i++){
-            parent[i] = i;
-            val[i] = 1.0d;
-        }
-        
-        for(int i = 0;  i < equations.size(); i++){
-            var e = equations.get(i);
-            var idx0 = h.get(e.get(0));
-            var idx1 = h.get(e.get(1));
-            union(idx0, idx1, values[i]);
-        }
-        
-        var n = queries.size();
-        var result = new double[n];
-        for(int i = 0; i < n; i++){
-            var q = queries.get(i);
-            var s1 = q.get(0);
-            var s2 = q.get(1);
-            
-            var idx1 = h.get(s1);
-            var idx2 = h.get(s2);
-            if(idx1 == null || idx2 == null){
-                result[i] = -1.0d;
-                continue;
-            }
+import java.util.*;
 
-            if(idx1 == idx2){
-                result[i] = 1.0d;
-                continue;
-            }
-            
-            var a = find(idx1);
-            var b = find(idx2);
-            if(a != b){
-                result[i] = -1.0d;
-                continue;
-            }
-            else{
-                result[i] = val[idx1] / val[idx2];
+class Solution {
+    public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
+        // 并查集的 parent 和 weight
+        Map<String, String> parent = new HashMap<>();
+        Map<String, Double> weight = new HashMap<>();
+
+        // 构建并查集
+        for (int i = 0; i < equations.size(); i++) {
+            String var1 = equations.get(i).get(0);
+            String var2 = equations.get(i).get(1);
+            double value = values[i];
+            union(parent, weight, var1, var2, value);
+        }
+
+        // 处理查询
+        double[] result = new double[queries.size()];
+        for (int i = 0; i < queries.size(); i++) {
+            String var1 = queries.get(i).get(0);
+            String var2 = queries.get(i).get(1);
+
+            if (!parent.containsKey(var1) || !parent.containsKey(var2)) {
+                result[i] = -1.0; // 不在同一个连通分量
+            } else {
+                String root1 = find(parent, weight, var1);
+                String root2 = find(parent, weight, var2);
+                if (!root1.equals(root2)) {
+                    result[i] = -1.0; // 不在同一个连通分量
+                } else {
+                    result[i] = weight.get(var1) / weight.get(var2); // 计算比值
+                }
             }
         }
-        
+
         return result;
     }
-    
-    private int find(int x){
-        if(x == parent[x]) return x;
-        
-        var v = 1.0d;
-        var a = x;
-        while(a != parent[a]){
-            v = v * val[a];
-            a = parent[a];
+
+    // 并查集的合并操作
+    private void union(Map<String, String> parent, Map<String, Double> weight, String var1, String var2, double value) {
+        if (!parent.containsKey(var1)) {
+            parent.put(var1, var1);
+            weight.put(var1, 1.0);
         }
-        
-        parent[x] = a;
-        val[x] = v;
-        return a;
+        if (!parent.containsKey(var2)) {
+            parent.put(var2, var2);
+            weight.put(var2, 1.0);
+        }
+
+        String root1 = find(parent, weight, var1);
+        String root2 = find(parent, weight, var2);
+
+        if (!root1.equals(root2)) {
+            parent.put(root1, root2);
+            weight.put(root1, value * weight.get(var2) / weight.get(var1));
+        }
     }
-    
-    private void union(int x, int y, double v){
-        var a = find(x);
-        var b = find(y);
-        if(a == b) return;
-        
-        parent[a] = b;
-        val[a] = v * (val[y] / val[x]);
+
+    // 并查集的查找操作（带路径压缩）
+    private String find(Map<String, String> parent, Map<String, Double> weight, String var) {
+        if (!var.equals(parent.get(var))) {
+            String origin = parent.get(var);
+            parent.put(var, find(parent, weight, origin));
+            weight.put(var, weight.get(var) * weight.get(origin)); // 更新比值
+        }
+        return parent.get(var);
     }
 }
