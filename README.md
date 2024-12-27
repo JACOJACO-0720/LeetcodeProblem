@@ -274,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0833-bus-routes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0833-bus-routes) |
 | [0871-keys-and-rooms](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0871-keys-and-rooms) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1380-number-of-closed-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1380-number-of-closed-islands) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -637,6 +638,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0871-keys-and-rooms) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1229-shortest-path-with-alternating-colors) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Shortest Path
 |  |
