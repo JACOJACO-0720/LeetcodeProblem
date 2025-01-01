@@ -277,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1229-shortest-path-with-alternating-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1380-number-of-closed-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1380-number-of-closed-islands) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1492-time-needed-to-inform-all-employees](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
 ## Linked List
@@ -413,6 +414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0437-path-sum-iii) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [1492-time-needed-to-inform-all-employees](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
@@ -449,6 +451,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1380-number-of-closed-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1380-number-of-closed-islands) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [1492-time-needed-to-inform-all-employees](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
