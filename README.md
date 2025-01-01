@@ -279,6 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
 ## Linked List
 |  |
@@ -453,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
@@ -642,6 +644,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0871-keys-and-rooms) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Shortest Path
 |  |
