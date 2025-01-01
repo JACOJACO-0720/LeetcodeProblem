@@ -1,21 +1,17 @@
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
-        Map<Integer, List<Integer>> graph = new HashMap<>();
-        for(int i=0; i<n; i++) {
-            graph.putIfAbsent(manager[i], new ArrayList<>());
-            graph.get(manager[i]).add(i);
+        int max = 0;
+        for(int i=0; i<n; i++){
+            if(manager[i] != -1) {
+                max = Math.max(max, dfs(manager, informTime, i));
+            }
         }
-        return dfs(graph, headID, informTime);
+        return max;
     }
-
-    int dfs(Map<Integer, List<Integer>> graph, int curHead, int[] informTime) {
-        int curMax = 0;
-        if(!graph.containsKey(curHead)){
-            return curMax;
-        }
-        for(int subordinate : graph.get(curHead)) {
-            curMax = Math.max(curMax, dfs(graph, subordinate, informTime));
-        }
-        return curMax + informTime[curHead];
+    public int dfs(int[] manager, int[] informTime, int currentEmp){
+        if(manager[currentEmp] == -1) return informTime[currentEmp];
+        informTime[currentEmp] += dfs(manager, informTime, manager[currentEmp]);
+        manager[currentEmp] = -1;
+        return informTime[currentEmp];
     }
 }
