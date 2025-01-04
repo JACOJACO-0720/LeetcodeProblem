@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
+| [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0735-asteroid-collision](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0735-asteroid-collision) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
 | [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
+| [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0684-redundant-connection) |
 | [0813-all-paths-from-source-to-target](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0813-all-paths-from-source-to-target) |
@@ -366,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0727-minimum-window-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0727-minimum-window-subsequence) |
@@ -618,6 +621,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
+| [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0971-shortest-bridge](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1036-rotting-oranges) |
 | [1380-number-of-closed-islands](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1380-number-of-closed-islands) |
