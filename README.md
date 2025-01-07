@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
+| [0624-maximum-distance-in-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0624-maximum-distance-in-arrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0735-asteroid-collision](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
@@ -603,6 +604,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
+| [0624-maximum-distance-in-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0624-maximum-distance-in-arrays) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
