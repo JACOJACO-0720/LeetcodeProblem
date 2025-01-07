@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0490-the-maze](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0490-the-maze) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
@@ -278,6 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
 | [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
+| [0490-the-maze](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
 | [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0547-number-of-provinces) |
@@ -461,6 +463,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0437-path-sum-iii) |
+| [0490-the-maze](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0684-redundant-connection) |
@@ -633,6 +636,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
+| [0490-the-maze](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
 | [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0971-shortest-bridge](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0971-shortest-bridge) |
