@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
+| [0582-kill-process](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0582-kill-process) |
 | [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0624-maximum-distance-in-arrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0433-minimum-genetic-mutation) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0582-kill-process](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0582-kill-process) |
 | [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [0833-bus-routes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0833-bus-routes) |
 | [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
@@ -283,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
 | [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0547-number-of-provinces) |
+| [0582-kill-process](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0582-kill-process) |
 | [0684-redundant-connection](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0684-redundant-connection) |
 | [0813-all-paths-from-source-to-target](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0820-find-eventual-safe-states) |
@@ -431,6 +434,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0437-path-sum-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0437-path-sum-iii) |
+| [0582-kill-process](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0582-kill-process) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1492-time-needed-to-inform-all-employees) |
@@ -466,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0490-the-maze](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0547-number-of-provinces) |
+| [0582-kill-process](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0582-kill-process) |
 | [0684-redundant-connection](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0684-redundant-connection) |
 | [0813-all-paths-from-source-to-target](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0820-find-eventual-safe-states) |
