@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0047-permutations-ii) |
 | [0052-n-queens-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0093-restore-ip-addresses) |
 | [0113-path-sum-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0113-path-sum-ii) |
@@ -757,6 +759,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0078-subsets) |
 | [0191-number-of-1-bits](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
