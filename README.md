@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0487-max-consecutive-ones-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0487-max-consecutive-ones-ii) |
 | [0490-the-maze](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0490-the-maze) |
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
@@ -381,6 +382,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0435-non-overlapping-intervals) |
+| [0487-max-consecutive-ones-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0487-max-consecutive-ones-ii) |
 | [0542-01-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -403,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0076-minimum-window-substring) |
 | [0220-contains-duplicate-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0220-contains-duplicate-iii) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0487-max-consecutive-ones-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0487-max-consecutive-ones-ii) |
 | [0727-minimum-window-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0727-minimum-window-subsequence) |
 | [1733-maximum-number-of-visible-points](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1733-maximum-number-of-visible-points) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
