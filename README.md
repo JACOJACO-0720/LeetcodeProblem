@@ -257,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1250-longest-common-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1250-longest-common-subsequence) |
 | [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2687-lexicographically-smallest-beautiful-string) |
@@ -535,6 +536,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0739-daily-temperatures) |
 | [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2419-subarray-with-elements-greater-than-varying-threshold](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2419-subarray-with-elements-greater-than-varying-threshold) |
 ## Monotonic Stack
 |  |
@@ -628,6 +630,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0624-maximum-distance-in-arrays) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2565-merge-operations-to-turn-array-into-a-palindrome](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2565-merge-operations-to-turn-array-into-a-palindrome) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
