@@ -27,7 +27,7 @@ class Solution {
                     if(dp[i+1][0]==-1){
                         dp[i+1][0] = 1;
                     }
-                    if(dp[i+1][1] <0 || dp[i+1][0]>dp[i+1][1]){
+                    if(dp[i+1][1] <0 ){
                         return false;
                     }
 
