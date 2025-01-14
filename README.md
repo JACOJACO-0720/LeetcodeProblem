@@ -701,6 +701,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0871-keys-and-rooms) |
 | [1032-satisfiability-of-equality-equations](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1032-satisfiability-of-equality-equations) |
+| [1101-parallel-courses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1101-parallel-courses) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1300-critical-connections-in-a-network](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1300-critical-connections-in-a-network) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -763,6 +764,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0269-alien-dictionary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0269-alien-dictionary) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0820-find-eventual-safe-states](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0820-find-eventual-safe-states) |
+| [1101-parallel-courses](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1101-parallel-courses) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Bit Manipulation
 |  |
