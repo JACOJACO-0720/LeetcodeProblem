@@ -120,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2565-merge-operations-to-turn-array-into-a-palindrome](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2565-merge-operations-to-turn-array-into-a-palindrome) |
 | [2617-time-taken-to-cross-the-door](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2617-time-taken-to-cross-the-door) |
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3092-minimum-moves-to-spread-stones-over-grid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3092-minimum-moves-to-spread-stones-over-grid) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [2428-equal-row-and-column-pairs](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2428-equal-row-and-column-pairs) |
 | [2685-first-completely-painted-row-or-column](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2685-first-completely-painted-row-or-column) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
@@ -769,6 +771,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0191-number-of-1-bits](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## String Matching
 |  |
 | ------- |
