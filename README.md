@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0220-contains-duplicate-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0221-maximal-square) |
 | [0228-summary-ranges](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0228-summary-ranges) |
+| [0249-group-shifted-strings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0249-group-shifted-strings) |
 | [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0269-alien-dictionary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0269-alien-dictionary) |
 | [0274-h-index](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0274-h-index) |
@@ -147,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0141-linked-list-cycle) |
 | [0149-max-points-on-a-line](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0149-max-points-on-a-line) |
 | [0208-implement-trie-prefix-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0208-implement-trie-prefix-tree) |
+| [0249-group-shifted-strings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0249-group-shifted-strings) |
 | [0305-number-of-islands-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0305-number-of-islands-ii) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0347-top-k-frequent-elements) |
@@ -246,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0212-word-search-ii) |
 | [0227-basic-calculator-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0227-basic-calculator-ii) |
+| [0249-group-shifted-strings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0249-group-shifted-strings) |
 | [0269-alien-dictionary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
