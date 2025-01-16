@@ -1,40 +1,24 @@
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
-        boolean[] visited = new boolean[21];
-        List<List<Integer>> res = new ArrayList<>();
-        ArrayList<Integer> lst = new ArrayList<>();
-            for(int num:nums){
-                if(!visited[num+10]){
-                    visited[num+10] = true;
-                    lst.add(num);
-                    helperFunction(res, visited, nums, lst);
-                    visited[num+10] = false;
-                    lst.remove(lst.size()-1);
-                }
-
-            }
-        return res;
+        boolean[] used = new boolean[nums.length];
+        List<List<Integer>> ret = new ArrayList<>();
+        bt(ret, new ArrayList<>(), used, nums);
+        return ret;
     }
-    void helperFunction(List<List<Integer>> res, boolean[] visited,int[] nums,ArrayList<Integer> lst){
-        if(lst.size()==nums.length){
-            List<Integer> r = new ArrayList<>();
-            for(int l:lst){
-                r.add(l);
-            }
-            res.add(r);
-            return ;
-        }else{
-            for(int num:nums){
-                if(!visited[num+10]){
-                    visited[num+10] = true;
-                    lst.add(num);
-                    helperFunction(res, visited, nums, lst);
-                    visited[num+10] = false;
-                    lst.remove(lst.size()-1);
-                }
 
-            }
+    private void bt(List<List<Integer>> ret, List<Integer> l, boolean[] used, int[] nums) {
+        if (l.size() == used.length) {
+            ret.add(new ArrayList<>(l));
+            return;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (used[i]) continue;
+            used[i] = true;
+            l.add(nums[i]);
+            bt(ret, l, used, nums);
+            l.remove(l.size() - 1);
+            used[i] = false;
         }
     }
-
 }
