@@ -160,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0442-find-all-duplicates-in-an-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0582-kill-process](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0582-kill-process) |
 | [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
+| [0768-partition-labels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0768-partition-labels) |
 | [0833-bus-routes](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0833-bus-routes) |
 | [1777-determine-if-two-strings-are-close](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1777-determine-if-two-strings-are-close) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
@@ -260,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0539-minimum-time-difference) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
 | [0727-minimum-window-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0727-minimum-window-subsequence) |
+| [0768-partition-labels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0768-partition-labels) |
 | [0785-basic-calculator-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0785-basic-calculator-iii) |
 | [1032-satisfiability-of-equality-equations](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1032-satisfiability-of-equality-equations) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -355,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0768-partition-labels) |
 | [2565-merge-operations-to-turn-array-into-a-palindrome](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2565-merge-operations-to-turn-array-into-a-palindrome) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Recursion
@@ -638,6 +641,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0502-ipo](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0624-maximum-distance-in-arrays) |
+| [0768-partition-labels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0768-partition-labels) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1762-furthest-building-you-can-reach](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1762-furthest-building-you-can-reach) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
