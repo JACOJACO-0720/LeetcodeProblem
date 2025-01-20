@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0274-h-index) |
 | [0280-wiggle-sort](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0280-wiggle-sort) |
 | [0286-walls-and-gates](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0286-walls-and-gates) |
+| [0287-find-the-duplicate-number](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0296-best-meeting-point](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0296-best-meeting-point) |
 | [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
@@ -349,6 +350,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0253-meeting-rooms-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0253-meeting-rooms-ii) |
 | [0277-find-the-celebrity](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0277-find-the-celebrity) |
+| [0287-find-the-duplicate-number](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [0647-palindromic-substrings](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0647-palindromic-substrings) |
 | [2565-merge-operations-to-turn-array-into-a-palindrome](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2565-merge-operations-to-turn-array-into-a-palindrome) |
@@ -729,6 +731,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0287-find-the-duplicate-number](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -776,6 +779,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0078-subsets) |
 | [0191-number-of-1-bits](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0201-bitwise-and-of-numbers-range) |
+| [0287-find-the-duplicate-number](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## String Matching
