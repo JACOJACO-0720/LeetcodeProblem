@@ -488,6 +488,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0332-reconstruct-itinerary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0437-path-sum-iii) |
@@ -705,6 +706,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0277-find-the-celebrity](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0277-find-the-celebrity) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0332-reconstruct-itinerary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0399-evaluate-division) |
 | [0505-the-maze-ii](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0547-number-of-provinces) |
@@ -881,4 +883,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/1300-critical-connections-in-a-network) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/JACOJACO-0720/LeetcodeProblem/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
