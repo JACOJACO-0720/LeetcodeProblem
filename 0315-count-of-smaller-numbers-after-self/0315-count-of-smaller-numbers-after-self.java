@@ -1,38 +1,53 @@
-import java.util.*;
-
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
-        List<Integer> result = new ArrayList<>();
-        List<Integer> sortedList = new ArrayList<>(); // 用于模拟 SortedList
+        int offset = 10000; // offset negative to non-negative
+        int size = 2 * 10000 + 1; // total possible values in nums
+        int[] tree = new int[size * 2];
+        List<Integer> result = new ArrayList<Integer>();
 
-        // 逆序遍历
         for (int i = nums.length - 1; i >= 0; i--) {
-            int num = nums[i];
-
-            // 找到当前数的插入位置（二分查找）
-            int idx = binarySearch(sortedList, num);
-            result.add(idx);
-
-            // 插入当前数到有序列表
-            sortedList.add(idx, num);
+            int smaller_count = query(0, nums[i] + offset, tree, size);
+            result.add(smaller_count);
+            update(nums[i] + offset, 1, tree, size);
         }
-
-        // 结果翻转
         Collections.reverse(result);
         return result;
     }
 
-    // 使用二分查找找到插入位置（相当于 bisect_left）
-    private int binarySearch(List<Integer> sortedList, int target) {
-        int left = 0, right = sortedList.size();
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (sortedList.get(mid) >= target) {
-                right = mid; // 左移，找到最左侧的插入位置
-            } else {
-                left = mid + 1;
-            }
+    // implement segment tree
+    private void update(int index, int value, int[] tree, int size) {
+        index += size; // shift the index to the leaf
+        // update from leaf to root
+        tree[index] += value;
+        while (index > 1) {
+            index /= 2;
+            tree[index] = tree[index * 2] + tree[index * 2 + 1];
         }
-        return left;
+    }
+
+    private int query(int left, int right, int[] tree, int size) {
+        // return sum of [left, right)
+        int result = 0;
+        left += size; // shift the index to the leaf
+        right += size;
+        while (left < right) {
+            // if left is a right node
+            // bring the value and move to parent's right node
+            if (left % 2 == 1) {
+                result += tree[left];
+                left++;
+            }
+            // else directly move to parent
+            left /= 2;
+            // if right is a right node
+            // bring the value of the left node and move to parent
+            if (right % 2 == 1) {
+                right--;
+                result += tree[right];
+            }
+            // else directly move to parent
+            right /= 2;
+        }
+        return result;
     }
 }
