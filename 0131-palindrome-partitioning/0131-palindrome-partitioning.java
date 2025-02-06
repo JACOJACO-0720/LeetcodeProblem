@@ -10,7 +10,7 @@ class Solution {
         }
         for (int i = 1; i < dp.length; i++) {
             for (int j = 1; j <=i; j++) {
-                if(i-j>=0 && s.charAt(i)==s.charAt(i-j) && ((j-2>=0 && dp[i-1][j-2])||j==1)){
+                if(s.charAt(i)==s.charAt(i-j) && ((j-2>=0 && dp[i-1][j-2])||j==1)){
                     dp[i][j] = true;
                 }
             }
